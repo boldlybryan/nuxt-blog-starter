@@ -1,9 +1,7 @@
 <template>
-  <Header/>
-  <div class="content">
-    <slot />
-  </div>
-  <Footer/>
+  <footer class="text-center">
+    &copy; 2025 MIT License
+  </footer>
 </template>
 
 <script lang="ts" setup>
