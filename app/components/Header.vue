@@ -1,5 +1,5 @@
 <template>
-  <header class="p-2">
+  <header>
     <nav class="flex gap-2">
       <NuxtLink v-for="item in navItems" :to="item.path">{{ item.name }}</NuxtLink>
     </nav>
