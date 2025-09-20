@@ -1,9 +1,11 @@
 <template>
-  <Header/>
-  <div class="content">
-    <slot />
+  <div class="max-w-3xl mx-auto">
+    <Header/>
+    <div class="content">
+      <slot />
+    </div>
+    <Footer/>
   </div>
-  <Footer/>
 </template>
 
 <script lang="ts" setup>
