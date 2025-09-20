@@ -6,7 +6,10 @@ export default <Partial<Config>>{
     extend: {
       colors: {
         primary: colors.blue
-      }
+      },
+      fontFamily: {
+        custom: ['Inter'],
+      },
     }
   }
 }
