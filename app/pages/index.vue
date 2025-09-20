@@ -9,6 +9,10 @@
       <p>{{ page.description }}</p>
     </NuxtLink>
   </div>
+  <div class="mt-4 flex gap-3">
+    <NuxtLink to="/feed.xml" external target="_blank" class="underline">RSS</NuxtLink>
+    <NuxtLink to="https://github.com/boldlybryan/nuxt-blog-starter" class="underline">GitHub</NuxtLink>
+  </div>
 </template>
 
 <script lang="ts" setup>
