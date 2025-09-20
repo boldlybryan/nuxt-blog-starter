@@ -1,7 +1,29 @@
 import { Feed } from 'feed'
-import { readdir, readFile } from 'fs/promises'
+import { readdir, readFile, stat } from 'fs/promises'
 import { join } from 'path'
 import matter from 'gray-matter'
+
+async function getAllMarkdownFiles(dir) {
+  const files = []
+  
+  async function traverse(currentDir) {
+    const entries = await readdir(currentDir)
+    
+    for (const entry of entries) {
+      const fullPath = join(currentDir, entry)
+      const stats = await stat(fullPath)
+      
+      if (stats.isDirectory()) {
+        await traverse(fullPath) // Recurse into subdirectories
+      } else if (entry.endsWith('.md')) {
+        files.push(fullPath)
+      }
+    }
+  }
+  
+  await traverse(dir)
+  return files
+}
 
 export default defineEventHandler(async (event) => {
   const feed = new Feed({
@@ -11,6 +33,7 @@ export default defineEventHandler(async (event) => {
     link: 'https://nuxtjs-blog-starter.vercel.app',
     language: 'en',
     updated: new Date(),
+    copyright: 'MIT Licensed',
     feedLinks: {
       rss2: 'https://nuxtjs-blog-starter.vercel.app/feed.xml',
     }
@@ -18,18 +41,21 @@ export default defineEventHandler(async (event) => {
 
   try {
     const contentDir = join(process.cwd(), 'content')
-    const files = await readdir(contentDir)
+    const markdownFiles = await getAllMarkdownFiles(contentDir)
     const posts = []
     
     // Read all markdown files
-    for (const file of files.filter(f => f.endsWith('.md'))) {
-      const filePath = join(contentDir, file)
+    for (const filePath of markdownFiles) {
       const fileContent = await readFile(filePath, 'utf-8')
       const { data, content } = matter(fileContent)
       
+      // Extract the relative path from the full file path
+      const relativePath = filePath.replace(contentDir + '/', '').replace('.md', '')
+      const fileName = filePath.split('/').pop()
+      
       posts.push({
-        title: data.title || file.replace('.md', ''),
-        slug: file.replace('.md', ''),
+        title: data.title || fileName.replace('.md', ''),
+        slug: relativePath,
         description: data.description || '',
         date: data.date || new Date(),
         content: content,
