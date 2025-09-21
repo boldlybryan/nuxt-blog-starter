@@ -12,5 +12,10 @@ export default defineNuxtConfig({
     name: 'nuxt-blog-starter',
     description: 'A barebones blog setup using Nuxt and Tailwind.',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
+  },
+  sitemap: {
+    sources: [
+      '/api/__sitemap__/urls'
+    ]
   }
 })
