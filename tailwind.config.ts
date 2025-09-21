@@ -8,7 +8,7 @@ export default <Partial<Config>>{
         primary: colors.blue
       },
       fontFamily: {
-        custom: ['Inter'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
     }
   }

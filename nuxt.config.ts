@@ -7,6 +7,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/seo'
   ],
+  fonts: {
+    families: [
+      { name: 'Inter', provider: 'google' }
+    ]
+  },
   site: {
     url: 'https://nuxtjs-blog-starter.vercel.app',
     name: 'nuxt-blog-starter',
