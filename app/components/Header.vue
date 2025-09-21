@@ -18,7 +18,7 @@ const navItems = {
   },
   'deploy': {
     name: 'deploy',
-    path: 'https://example.com'
+    path: 'https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fboldlybryan%2Fnuxt-blog-starter'
   }
 
 }
