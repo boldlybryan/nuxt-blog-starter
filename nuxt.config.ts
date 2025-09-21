@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
   fonts: {
     families: [
-      { name: 'Inter', provider: 'google', preload: true, display: 'swap' }
+      { name: 'Inter', provider: 'google', preload: true, display: 'swap', weights: [400,600,700] }
     ]
   },
   site: {
@@ -22,5 +22,10 @@ export default defineNuxtConfig({
     sources: [
       '/api/__sitemap__/urls'
     ]
+  },
+  content: {
+    renderer: {
+      anchorLinks: false
+    }
   }
 })

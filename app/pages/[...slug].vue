@@ -6,7 +6,19 @@
         <div v-if="page.description">{{ page.description }}</div>
       </div>
       <div v-if="page.date">{{ page.date }}</div>
-      <ContentRenderer :value="page" class="mt-8"/>
+      <ContentRenderer
+        :value="page"
+        class="
+          prose
+          prose-sm
+          prose-headings:tracking-tighter
+          prose-headings:font-[600]
+          prose-gray
+          prose-pre:text-base
+          prose-pre:bg-gray-100
+          prose-pre:text-gray-700
+          max-w-none
+          mt-8"/>
     </template>
     <template v-else>
       <div class="empty-page">
