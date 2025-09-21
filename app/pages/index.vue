@@ -5,12 +5,12 @@
     <p class="mb-4">This template includes everything you need: markdown-based content management, RSS feeds, SEO optimization, and a responsive design. Get started in minutes and customize it to match your style.</p>
   </div>
   <div class="mt-12">
-    <NuxtLink v-for="page in pages" :key="page.path" :to="page.path" class="flex align-baseline justify-between mb-6">
-      <div>
+    <NuxtLink v-for="page in pages" :key="page.path" :to="page.path" class="flex align-baseline justify-between gap-8 mb-6">
+      <div class="flex-1">
         <h2 class="font-semibold">{{ page.title }}</h2>
         <p class="opacity-60">{{ page.description }}</p>
       </div>
-      <div class="opacity-60">{{ page.date }}</div>
+      <NuxtTime :datetime="page.date" year="numeric" month="short" day="numeric" class="text-sm opacity-60"/>
     </NuxtLink>
   </div>
   <div class="mt-4 flex gap-3">
