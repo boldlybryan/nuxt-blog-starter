@@ -13,6 +13,7 @@
           prose-sm
           prose-headings:tracking-tighter
           prose-headings:font-[600]
+          prose-h3:text-base
           prose-gray
           prose-pre:text-base
           prose-pre:bg-gray-100
