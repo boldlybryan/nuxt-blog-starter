@@ -23,6 +23,19 @@ const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection('content').path(route.path).first()
 })
+
+// Set up OG image for blog posts
+if (page.value) {
+  defineOgImage({
+    component: 'OgImage',
+    props: {
+      title: page.value.title || '',
+      description: page.value.description || '',
+      siteName: 'nuxt-blog-starter',
+      date: page.value.date ? new Date(page.value.date).toLocaleDateString() : ''
+    }
+  })
+}
 </script>
 
 <style>
