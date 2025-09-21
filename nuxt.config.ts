@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
   fonts: {
     families: [
-      { name: 'Inter', provider: 'google' }
+      { name: 'Inter', provider: 'google', preload: true, display: 'swap' }
     ]
   },
   site: {
