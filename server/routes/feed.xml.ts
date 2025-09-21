@@ -1,29 +1,5 @@
 import { Feed } from 'feed'
-import { readdir, readFile, stat } from 'fs/promises'
-import { join } from 'path'
-import matter from 'gray-matter'
-
-async function getAllMarkdownFiles(dir) {
-  const files = []
-  
-  async function traverse(currentDir) {
-    const entries = await readdir(currentDir)
-    
-    for (const entry of entries) {
-      const fullPath = join(currentDir, entry)
-      const stats = await stat(fullPath)
-      
-      if (stats.isDirectory()) {
-        await traverse(fullPath) // Recurse into subdirectories
-      } else if (entry.endsWith('.md')) {
-        files.push(fullPath)
-      }
-    }
-  }
-  
-  await traverse(dir)
-  return files
-}
+import { queryCollection } from '@nuxt/content/server'
 
 export default defineEventHandler(async (event) => {
   const feed = new Feed({
@@ -40,46 +16,53 @@ export default defineEventHandler(async (event) => {
   })
 
   try {
-    const contentDir = join(process.cwd(), 'content')
-    const markdownFiles = await getAllMarkdownFiles(contentDir)
-    const posts = []
-    
-    // Read all markdown files
-    for (const filePath of markdownFiles) {
-      const fileContent = await readFile(filePath, 'utf-8')
-      const { data, content } = matter(fileContent)
-      
-      // Extract the relative path from the full file path
-      const relativePath = filePath.replace(contentDir + '/', '').replace('.md', '')
-      const fileName = filePath.split('/').pop()
-      
-      posts.push({
-        title: data.title || fileName.replace('.md', ''),
-        slug: relativePath,
-        description: data.description || '',
-        date: data.date || new Date(),
-        content: content,
-        ...data
-      })
-    }
-    
-    // Sort by date, newest first
-    posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    
+    // Query content using the proper API that works in production
+    const posts = await queryCollection(event, 'content')
+      .where('draft', '=', false)
+      .order('date', 'DESC')
+      .limit(20)
+      .all()
+
     // Add items to feed
-    posts.slice(0, 20).forEach(post => {
+    posts.forEach((post: any) => {
+      // Use path property like the blog page does
+      const path = post.path || post._path || post._id || ''
+      const title = post.title || path.split('/').pop()?.replace(/-/g, ' ') || 'Untitled'
+      
+      // Extract text content from the body
+      let content = ''
+      if (post.body) {
+        // Handle different body formats
+        if (typeof post.body === 'string') {
+          content = post.body
+        } else if (post.body.children) {
+          const extractText = (nodes: any[]): string => {
+            return nodes.map((node: any) => {
+              if (node.type === 'text') return node.value || ''
+              if (node.type === 'element' && node.children) return extractText(node.children)
+              if (node.children) return extractText(node.children)
+              return ''
+            }).join(' ').trim()
+          }
+          content = extractText(post.body.children)
+        }
+      }
+      
+      // Ensure path is a valid URL path
+      const urlPath = path && path !== '' ? (path.startsWith('/') ? path : `/${path}`) : `/${post.title?.replace(/\s+/g, '-').toLowerCase() || 'untitled'}`
+      
       feed.addItem({
-        title: post.title,
-        id: `https://nuxtjs-blog-starter.vercel.app/${post.slug}`,
-        link: `https://nuxtjs-blog-starter.vercel.app/${post.slug}`,
-        description: post.description,
-        content: post.content,
-        date: new Date(post.date)
+        title,
+        id: `https://nuxtjs-blog-starter.vercel.app${urlPath}`,
+        link: `https://nuxtjs-blog-starter.vercel.app${urlPath}`,
+        description: post.description || '',
+        content: content || post.description || '',
+        date: post.date ? new Date(post.date) : new Date()
       })
     })
     
   } catch (error) {
-    console.error('Error reading content files:', error)
+    console.error('Error generating RSS feed:', error)
   }
 
   setHeader(event, 'content-type', 'application/rss+xml')
