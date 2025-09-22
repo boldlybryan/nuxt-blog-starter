@@ -11,11 +11,14 @@
         class="
           prose
           prose-sm
-          prose-headings:tracking-tighter
           prose-headings:font-[600]
-          prose-headings:mt-14
+          prose-h2:tracking-tighter
+          prose-h2:mt-14
           prose-h3:text-base
+          prose-h3:mt-6
           prose-p:text-base
+          prose-ul:text-base
+          prose-ol:text-base
           prose-gray
           prose-pre:text-base
           prose-pre:bg-gray-100
