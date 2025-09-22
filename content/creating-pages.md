@@ -9,7 +9,7 @@ Beyond blog posts, you might want to add custom pages like About, Contact, or Po
 
 ## Understanding Nuxt Routing
 
-Nuxt uses file-based routing. Files in the `app/pages/` directory automatically become routes:
+Nuxt uses [file-based routing](https://nuxt.com/docs/guide/directory-structure/pages). Files in the `app/pages/` directory automatically become routes:
 
 ```
 app/pages/
@@ -19,6 +19,8 @@ app/pages/
 ├── contact.vue       → /contact
 └── [...slug].vue     → Dynamic route for blog posts
 ```
+
+> 📚 Deep dive: [Nuxt Routing](https://nuxt.com/docs/getting-started/routing) | [Vue Router docs](https://router.vuejs.org/)
 
 ## Current Page Structure
 
@@ -73,6 +75,8 @@ useHead({
 })
 </script>
 ```
+
+> 🔍 Learn about [useHead composable](https://nuxt.com/docs/api/composables/use-head) | [Vue script setup](https://vuejs.org/api/sfc-script-setup.html)
 
 ### Contact Page
 Create `app/pages/contact.vue`:
@@ -156,6 +160,8 @@ const submitForm = async () => {
   // Reset form
   Object.keys(form).forEach(key => form[key] = '')
 }
+
+// Learn about reactive data: https://vuejs.org/guide/essentials/reactivity-fundamentals.html
 
 useHead({
   title: 'Contact',

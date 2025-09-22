@@ -9,10 +9,10 @@ This template uses Tailwind CSS for styling, making it easy to customize the des
 
 ## Understanding the Stack
 
-- **Tailwind CSS**: Utility-first CSS framework
-- **Inter Font**: Loaded via Nuxt Fonts from Google Fonts
-- **Responsive Design**: Mobile-first approach
-- **Clean Typography**: Optimized for readability
+- **[Tailwind CSS](https://tailwindcss.com/docs)**: Utility-first CSS framework ([cheat sheet](https://nerdcave.com/tailwind-cheat-sheet))
+- **[Nuxt Fonts](https://fonts.nuxt.com/)**: Easy font loading (currently using Inter from Google Fonts)
+- **[Vue Style Guide](https://vuejs.org/style-guide/)**: Best practices for component styling
+- **Responsive Design**: Mobile-first approach using Tailwind's [responsive utilities](https://tailwindcss.com/docs/responsive-design)
 
 ## Quick Style Changes
 
@@ -57,6 +57,8 @@ fontFamily: {
 }
 ```
 
+> 🎨 Browse fonts at [Google Fonts](https://fonts.google.com/) | Learn about [Nuxt Fonts module](https://fonts.nuxt.com/)
+
 **Option 2: System Fonts Only**
 ```typescript
 // tailwind.config.ts
@@ -98,6 +100,8 @@ Customize the header in `app/components/Header.vue`:
   </header>
 </template>
 ```
+
+> 📚 Learn about [Vue component basics](https://vuejs.org/guide/essentials/component-basics.html) | [Flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Blog Post Lists
 Style the post listings in `app/pages/index.vue` and `app/pages/blog.vue`:
@@ -173,6 +177,8 @@ module.exports = {
   <!-- Your content -->
 </div>
 ```
+
+> 🌓 Full guide: [Tailwind Dark Mode](https://tailwindcss.com/docs/dark-mode) | [Vue dark mode patterns](https://vuejs.org/examples/#modal)
 
 ### 3. Content Styling
 Enhance markdown content rendering by adding Tailwind Typography:

@@ -7,6 +7,8 @@ author: Template Documentation
 
 Ready to share your blog with the world? This guide covers deploying your Nuxt blog to various hosting platforms.
 
+> 🚀 Quick links: [Nuxt deployment guide](https://nuxt.com/docs/getting-started/deployment) | [Hosting providers](https://nuxt.com/deploy)
+
 ## Quick Deploy Options
 
 ### 1. Vercel (Recommended)
@@ -18,6 +20,8 @@ Ready to share your blog with the world? This guide covers deploying your Nuxt b
 3. Import your repository
 4. Vercel automatically detects Nuxt and configures everything
 5. Your blog is live in minutes!
+
+> 📖 [Vercel Nuxt guide](https://vercel.com/guides/deploying-nuxt-with-vercel)
 
 **Benefits:**
 - Zero configuration required

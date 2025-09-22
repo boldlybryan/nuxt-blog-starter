@@ -5,7 +5,9 @@ date: 2025-01-14
 author: Template Documentation
 ---
 
-This template uses Nuxt Content for managing blog posts with Markdown files. Here's everything you need to know about organizing your content effectively.
+This template uses [Nuxt Content](https://content.nuxt.com/) for managing blog posts with Markdown files. Here's everything you need to know about organizing your content effectively.
+
+> 📚 Resources: [Nuxt Content docs](https://content.nuxt.com/) | [Markdown guide](https://www.markdownguide.org/)
 
 ## Content Directory Structure
 
