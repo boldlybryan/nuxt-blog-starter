@@ -5,7 +5,7 @@
         <h1 v-if="page.title" class="text-2xl font-semibold tracking-tighter">{{ page.title }}</h1>
         <div v-if="page.description">{{ page.description }}</div>
       </div>
-      <div v-if="page.date">{{ page.date }}</div>
+      <NuxtTime v-if="page.date" :datetime="page.date" year="numeric" month="short" day="numeric" class="text-sm opacity-60"/>
       <ContentRenderer
         :value="page"
         class="
@@ -25,6 +25,10 @@
           prose-pre:text-gray-700
           max-w-none
           mt-8"/>
+      <div v-if="page.tags">
+        <span>Filed under: </span>
+        <NuxtLink v-for="tag in page.tags" :key="tag" class="bg-gray-100 text-gray-700 px-2 py-1 rounded mr-2" :to="`/tag/${tag}`">{{ tag }}</NuxtLink>
+      </div>
     </template>
     <template v-else>
       <div class="empty-page">
@@ -50,7 +54,8 @@ if (page.value) {
       title: page.value.title || '',
       description: page.value.description || '',
       siteName: 'nuxt-blog-starter',
-      date: page.value.date ? new Date(page.value.date).toLocaleDateString() : ''
+      date: page.value.date ? new Date(page.value.date).toLocaleDateString() : '',
+      tags: page.value.tags || []
     }
   })
 }

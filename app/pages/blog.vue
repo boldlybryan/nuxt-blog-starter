@@ -16,6 +16,8 @@
 <script lang="ts" setup>
 const { data: pages } = await useAsyncData('content', () => {
   return queryCollection('content')
+    .where('draft', '=', false)
+    .order('date', 'DESC')
     .all()
 })
 </script>

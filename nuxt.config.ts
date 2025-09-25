@@ -1,3 +1,5 @@
+import { generateRSSFeed } from './utils/generateRSSFeed'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -26,6 +28,12 @@ export default defineNuxtConfig({
   content: {
     renderer: {
       anchorLinks: false
+    }
+  },
+  hooks: {
+    'nitro:build:before': async () => {
+      // Generate RSS feed during build
+      await generateRSSFeed()
     }
   }
 })

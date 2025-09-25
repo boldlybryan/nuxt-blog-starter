@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>nuxt-blog-starter</title>
+        <link>https://nuxtjs-blog-starter.vercel.app</link>
+        <description>A barebones blog setup using Nuxt and Tailwind.</description>
+        <lastBuildDate>Thu, 25 Sep 2025 12:43:31 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>MIT Licensed</copyright>
+        <item>
+            <title><![CDATA[Sharing Your Blog with the World]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/2025/01/sharing-your-blog</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/2025/01/sharing-your-blog</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to put your blog online so everyone can see it]]></description>
+            <content:encoded><![CDATA[<p>You've done it. You've written posts, made things pretty, and now you have this wonderful blog sitting on your computer. But a blog that no one can see is like singing in the shower - therapeutic, sure, but the world is missing out on your voice.</p>
+<h2>The Moment of Truth</h2>
+<p>I remember when I first put my blog online. My finger hovered over the "deploy" button for what felt like hours. What if people didn't like it? What if no one read it? What if EVERYONE read it?</p>
+<p>Here's the truth: none of that matters. What matters is that you created something, and now it's time to let it fly.</p>
+<h2>The Magic Button</h2>
+<p>See that "Deploy to Vercel" button? It's basically a magic portal. Click it, and within minutes your blog will have its own corner of the internet. It's free, it's fast, and it's way easier than you think.</p>
+<p>You'll get a web address like <code>your-awesome-blog.vercel.app</code>. Sure, it's not <code>YourName.com</code> yet, but hey, even Google started somewhere.</p>
+<h2>The First Share</h2>
+<p>Once your blog is live, you'll face another moment of truth: sharing it. Start small. Send it to your best friend. Your mom. That coworker who always asks what you're up to.</p>
+<p>Then, when you're feeling brave, share it wider. Post it on social media with something simple like "Hey, I started a blog!" You'll be surprised how supportive people can be.</p>
+<h2>Growing Your Garden</h2>
+<p>Here's something beautiful about blogs: they grow. Every time you write a new post and save it, your blog updates automatically. No complicated uploads. No technical wizardry. Just write, save, and it's there.</p>
+<p>It's like having a garden that waters itself. You just have to plant the seeds (your words).</p>
+<h2>Dreams for Tomorrow</h2>
+<p>Maybe someday you'll want your own domain name. Maybe you'll add comments so readers can chat with you. Maybe you'll check your stats and do a little dance when you see people from around the world reading your words.</p>
+<p>But for now? Just hit that deploy button. Take that first step.</p>
+<h2>Your Journey Continues</h2>
+<p>Need to write more? Head back to <a href="/2025/01/writing-your-first-post">creating your first post</a>. Want to tweak the design? Check out <a href="/2025/01/making-your-blog-pretty">making things pretty</a>.</p>
+<p>But honestly? You're ready. Your blog is ready. The world is ready for what you have to say.</p>
+<p>So what are you waiting for? Click that button. Share your voice. Join the millions of people who decided their thoughts were worth sharing.</p>
+<p>Welcome to the internet, friend. We're glad you're here. 🚀</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Making Your Blog Look Nice]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/2025/01/making-your-blog-pretty</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/2025/01/making-your-blog-pretty</guid>
+            <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simple ways to change colors, fonts, and make your blog unique]]></description>
+            <content:encoded><![CDATA[<p>Your blog is like a new apartment - it's nice, but it needs your personal touch. Let me show you how to make it feel like home.</p>
+<h2>Colors Tell Your Story</h2>
+<p>Right now your blog might be wearing blue jeans and a white t-shirt. Classic, but maybe you're more of a purple person? Or perhaps you're all about that forest green vibe?</p>
+<p>Here's the fun part: changing colors is as easy as changing clothes. Find where it says something like <code>blue-600</code> and swap it for <code>purple-600</code>. Save the file, refresh your page, and boom - new outfit!</p>
+<p>I once spent an entire afternoon just trying different colors. Started with sensible navy blue, ended up with hot pink. My blog looked like a flamingo had designed it. Changed it back the next day, but hey, that's the beauty of it - nothing's permanent.</p>
+<h2>Size Matters (For Text)</h2>
+<p>You know how some people talk really quietly and others basically shout? Your text can do that too.</p>
+<p>See something that says <code>text-sm</code>? That's your blog whispering. Change it to <code>text-xl</code> and now it's speaking up. Go wild with <code>text-4xl</code> and it's basically yelling. Sometimes yelling is good! Especially for headlines that need to grab attention.</p>
+<h2>Give Things Room to Breathe</h2>
+<p>Ever been in a crowded elevator? That's what your blog feels like when everything's squished together. Adding space is like giving your content room to stretch out and relax.</p>
+<p>When you see <code>mt-4</code>, that's adding space on top. Like lifting the ceiling a bit. <code>p-8</code> adds cushioning all around, like putting your content on a comfy couch. Play with the numbers - bigger means more space, smaller means cozier.</p>
+<h2>My Favorite Tricks</h2>
+<p>Want to know something cool? Add <code>rounded-lg</code> to anything boxy and watch the corners soften. It's like the difference between a cardboard box and a polished stone - same thing, friendlier feel.</p>
+<p>Or try <code>shadow-lg</code>. It makes elements float off the page like they're levitating. First time I discovered this, I added shadows to EVERYTHING. My blog looked like a magic show. (I toned it down later.)</p>
+<h2>Break Things (It's OK!)</h2>
+<p>Here's a secret: every designer you admire has broken their site a hundred times. Made text invisible. Turned backgrounds neon yellow. Created layouts that would make your eyes cry.</p>
+<p>That's how you learn! Change something. Break it. Fix it. Break it differently. Each mistake teaches you something new.</p>
+<h2>Start Small, Dream Big</h2>
+<p>Maybe today you just change one color. Tomorrow you might adjust some spacing. Next week? Who knows - you might redesign the whole thing.</p>
+<p>The point is, this is YOUR space. Make it look like you. Make it feel like home.</p>
+<p>Need more ideas? See <a href="/2025/01/how-your-blog-works">how everything works</a> or get back to <a href="/2025/01/writing-your-first-post">writing amazing content</a>.</p>
+<p>Now go make something beautiful! 🎨</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Write Your First Post]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/2025/01/writing-your-first-post</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/2025/01/writing-your-first-post</guid>
+            <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Easy steps to write and publish your very first blog post]]></description>
+            <content:encoded><![CDATA[<p>So you want to write your first blog post? I remember that feeling - staring at a blank page, wondering where to start. Let me make it super easy for you.</p>
+<h2>The Blank Page Isn't Scary</h2>
+<p>First, take a deep breath. Writing a blog post is just like writing an email to a friend. You don't need to be Shakespeare. You just need to be you.</p>
+<p>Start by creating a new file in your <code>content</code> folder. Give it a friendly name like <code>my-first-post.md</code> or <code>hello-world.md</code>. Whatever feels right to you. This name becomes part of your web address, so <code>hello-world.md</code> becomes <code>yourblog.com/hello-world</code>. Pretty neat!</p>
+<h2>The Magic Formula</h2>
+<p>Every blog post starts the same way. At the very top, you'll write something like this:</p>
+<p>``<code>markdown<br>---<br>title: My Awesome First Post<br>description: Where I finally start my blogging journey<br>date: 2025-01-18<br>author: Your Name Here<br>---<br></code>``</p>
+<p>Think of this like filling out a name tag at a party. It tells your blog what to call your post and when you wrote it.</p>
+<h2>Now for the Fun Part</h2>
+<p>After those three dashes, you're free! Write whatever you want. Tell a story. Share a recipe. Complain about the weather. It's your space.</p>
+<p>Maybe start with introducing yourself:</p>
+<p><em>"Hi! I'm Sarah and I love making sourdough bread. This blog is where I'll share my adventures in baking, including all my hilarious failures..."</em></p>
+<p>Or jump right into something you're excited about:</p>
+<p><em>"I just discovered the most amazing coffee shop, and I HAVE to tell you about it..."</em></p>
+<h2>Making It Shine</h2>
+<p>Want to emphasize something? Make it <strong>bold</strong>. Want to whisper? Make it <em>italic</em>. Want to add a photo of your cat? Just drag it in (your blog will tell you how).</p>
+<p>The best part? You can always change it later. Nothing is permanent. Think of your first post as a practice run.</p>
+<h2>Hit Save and Celebrate</h2>
+<p>Once you hit save, go look at your blog. There it is - your first post, live on the internet! Sure, maybe only your mom will read it at first, but that's how everyone starts.</p>
+<h2>What's Next?</h2>
+<p>Now that you've broken the ice, the second post will be easier. And the third even easier than that. Before you know it, you'll be writing posts in your sleep (please don't actually sleep-blog).</p>
+<p>Want to make your blog look amazing? Check out <a href="/2025/01/making-your-blog-pretty">how to make it pretty</a>. Or if you're ready to share with the world, learn about <a href="/2025/01/sharing-your-blog">getting your blog online</a>.</p>
+<p>But honestly? Just write. The rest will follow.</p>
+<p>Happy writing! 📝</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How Your Blog Works]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/2025/01/how-your-blog-works</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/2025/01/how-your-blog-works</guid>
+            <pubDate>Fri, 17 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The simple tech behind your blog explained in plain English]]></description>
+            <content:encoded><![CDATA[<p>Ever wonder how your blog actually works? Let me tell you a little story.</p>
+<h2>It's Like a Magic Notebook</h2>
+<p>Imagine you have a magic notebook. Every time you write something in it, that writing appears on a billboard where everyone can see it. That's basically what your blog does!</p>
+<p>You write your thoughts in simple files (they end with <code>.md</code> for "markdown"). Then, some friendly robots named Nuxt and Vue work together to turn your writing into a beautiful website. They're like the best art students you've ever met - they take your words and make them look amazing.</p>
+<h2>The Secret Recipe</h2>
+<p>Your blog uses three main ingredients, kind of like making a cake:</p>
+<p><strong>Nuxt</strong> is like your oven. It takes all your ingredients and bakes them into a website. Without it, you'd just have a bunch of files sitting around.</p>
+<p><strong>Vue</strong> is the magic that makes things happen when people click buttons or scroll through your posts. It's like having a really attentive waiter who knows exactly what your readers want to see next.</p>
+<p><strong>Tailwind</strong> is your decorator. Instead of mixing paint colors yourself, you just say "make this blue" or "make this text bigger" and Tailwind knows exactly what you mean.</p>
+<h2>The Cool Part</h2>
+<p>Here's what I love most about your blog: you don't need to be a computer wizard to use it.</p>
+<p>When you write <code><strong>bold text</strong></code>, it becomes <strong>bold text</strong>. When you type <code># Big Title</code>, it becomes a big title. It's like texting, but fancier.</p>
+<p>And those technical-looking things like <code>text-blue-500</code>? They're just shortcuts. It's way easier than the old days when people had to write long, complicated code just to make something blue.</p>
+<h2>Try Something Fun</h2>
+<p>Want to see the magic happen? Go find any file in your blog and change <code>blue</code> to <code>purple</code>. Save it. Refresh your browser. Boom! Purple instead of blue.</p>
+<p>That's the beauty of it - you can experiment without breaking anything. It's like fingerpainting, but on the internet.</p>
+<h2>Keep Exploring</h2>
+<p>Feeling curious? Check out how to <a href="/2025/01/writing-your-first-post">write your first masterpiece</a> or learn about <a href="/2025/01/making-your-blog-pretty">making your blog gorgeous</a>.</p>
+<p>But honestly? The best way to learn is just to play around. Change things. Break things. Fix things. That's how all of us learned, and that's how you'll learn too.</p>
+<p>Happy blogging! 🚀</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Your New Blog!]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/2025/01/welcome-to-your-blog</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/2025/01/welcome-to-your-blog</guid>
+            <pubDate>Thu, 16 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Your blog is ready to go. Here's what you can do with it.]]></description>
+            <content:encoded><![CDATA[<p>Hi there! Welcome to your brand new blog.</p>
+<p>You know that feeling when you get a new notebook? All those blank pages just waiting for your ideas? That's what you have here, except it's on the internet and everyone can read it. Pretty cool, right?</p>
+<h2>Your Blog Can Do Amazing Things</h2>
+<p>Right now, your blog might look simple. But don't let that fool you! It's like a bicycle - simple on the outside, but it can take you anywhere.</p>
+<p>You can write about your favorite hobby. Share photos from your last trip. Tell stories about your pet. Or maybe teach people how to make the world's best chocolate chip cookies. The choice is yours!</p>
+<h2>Making Your Words Look Good</h2>
+<p>When you write, you might want some words to stand out. Maybe you want to shout "This is <strong>really</strong> important!" Or whisper something <em>quietly</em>. You can do both!</p>
+<p>Sometimes you'll want to share a quote:</p>
+<p>> "The best time to start was yesterday. The second best time is now."</p>
+<p>See how that stands out? It makes people stop and think.</p>
+<h2>Pictures Are Worth a Thousand Words</h2>
+<p>Adding pictures is super easy. Just drop them in and tell your blog where to find them. Your readers will love seeing what you're talking about, whether it's your garden, your latest art project, or that amazing sunset you saw last week.</p>
+<h2>Your Journey Starts Here</h2>
+<p>I've left you some helpful guides to explore when you're ready. Think of them as friendly notes from someone who's been where you are now.</p>
+<p>Want to <a href="/2025/01/writing-your-first-post">write your first post</a>? There's a guide for that. Curious about <a href="/2025/01/making-your-blog-pretty">making things prettier</a>? Got you covered. Even put together something about <a href="/2025/01/how-your-blog-works">how this whole thing works</a>, just in case you're curious.</p>
+<p>But here's the secret: you don't need to read any of them right now. You could delete all these posts and start fresh. This is YOUR blog now.</p>
+<p>So what are you waiting for? The world wants to hear what you have to say! 🎉</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with Your Nuxt Blog]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/getting-started</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/getting-started</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get your blog running in 2 minutes, then make it yours in 5 more]]></description>
+            <content:encoded><![CDATA[<p><strong>Time to first post: 7 minutes</strong> ⏱️</p>
+<p>This template gives you a complete blog built with <a href="https://nuxt.com">Nuxt 4</a>, <a href="https://vuejs.org">Vue 3</a>, and <a href="https://tailwindcss.com">Tailwind CSS</a>. Let's get you up and running!</p>
+<h2>🚀 Start Here (2 minutes)</h2>
+<h3>1. Get the Code</h3>
+<p><strong>Option A: Deploy to Vercel</strong> (Recommended)<br>- Click the "Deploy" button in the header<br>- Follow Vercel's prompts<br>- Your blog is live in 2 minutes!</p>
+<p><strong>Option B: Local Development</strong><br>``<code>bash<br><h1>Clone the repository</h1><br>git clone [your-repo-url]<br>cd nuxt-blog-starter</p>
+<h1>Install dependencies</h1>
+npm install
+<h1>Start the dev server</h1>
+npm run dev
+</code>`<code>
+<p>Open <a href="http://localhost:3000">http://localhost:3000</a> - your blog is running!</p>
+<h3>2. Make It Yours (5 minutes)</h3>
+<p><strong>Essential changes to make right now:</strong></p>
+<p>📋 <strong><a href="/quick-customization">Follow the Quick Customization Guide</a></strong> - Changes your blog name, colors, and author info in 5 minutes</p>
+<p>Or manually update these files:</p>
+<p><strong>Change your blog name:</strong><br>- </code>nuxt.config.ts<code> → Update </code>site.name<code> and </code>site.description<code><br>- </code>server/routes/feed.xml.ts<code> → Update feed title and author</p>
+<p><strong>Pick your color:</strong><br>- </code>tailwind.config.ts<code> → Change </code>primary: colors.blue<code> to any <a href="https://tailwindcss.com/docs/customizing-colors">Tailwind color</a></p>
+<p><strong>Update deploy button:</strong><br>- </code>app/components/Header.vue<code> → Update the Vercel URL with your repo</p>
+<h2>📝 Write Your First Post (3 minutes)</h2>
+<p>1. Create a new file: </code>content/2025/01/hello-world.md<code></p>
+<p>2. Paste this template:<br></code>`<code>markdown<br>---<br>title: Hello World!<br>description: My first post on my new blog<br>date: 2025-01-20<br>---</p>
+<h1>Hello World!</h1>
+<p>Welcome to my blog! I'm excited to share my thoughts on web development, <br>specifically working with <strong>Vue</strong> and <strong>Nuxt</strong>.</p>
+<h2>What I'll Write About</h2>
+<p>- Building modern web apps<br>- Tips and tricks I learn<br>- Project showcases</p>
+<p>Stay tuned for more!<br></code>`<code></p>
+<p>3. Save and refresh - your post appears instantly!</p>
+<h2>📁 What's What (Quick Tour)</h2>
+<p></code>`<code><br>Your blog has 6 main folders:</p>
+<p>content/          → Your blog posts (Markdown files)<br>app/pages/        → Page routes (homepage, blog, etc.)<br>app/components/   → Reusable parts (Header, etc.)<br>public/           → Images and static files<br>server/           → RSS feed and API routes<br></code>`<code></p>
+<p><strong>Key files to know:</strong><br>- </code>nuxt.config.ts<code> - Main configuration (<a href="https://nuxt.com/docs/api/configuration/nuxt-config">Nuxt docs</a>)<br>- </code>tailwind.config.ts<code> - Style configuration (<a href="https://tailwindcss.com/docs/configuration">Tailwind docs</a>)<br>- </code>app/pages/index.vue<code> - Your homepage (<a href="https://vuejs.org/guide/introduction.html">Vue docs</a>)</p>
+<h2>✨ Features You Get</h2>
+<p>All of this works out of the box:</p>
+<p>- ✅ <strong>SEO Ready</strong> - Meta tags, sitemap.xml, robots.txt<br>- ✅ <strong>RSS Feed</strong> - Available at </code>/feed.xml<code><br>- ✅ <strong>Fast</strong> - Static generation, optimized images<br>- ✅ <strong>Markdown</strong> - With code highlighting<br>- ✅ <strong>Responsive</strong> - Looks great on all devices<br>- ✅ <strong>Deploy Ready</strong> - Works on Vercel, Netlify, etc.</p>
+<h2>🎯 Next Steps</h2>
+<p><strong>Now:</strong> <br>- Delete the example posts in </code>content/2025/01/`<br>- Write your first real post<br>- Push to GitHub and deploy</p>
+<p><strong>This Week:</strong><br>- <a href="/customizing-styles">Customize your styles</a> - Make it match your brand<br>- <a href="/creating-pages">Add an About page</a> - Tell readers about yourself<br>- <a href="/site-configuration">Configure SEO</a> - Set up your metadata</p>
+<p><strong>Later:</strong><br>- Learn <a href="/building-with-nuxt-and-vue">how this blog works</a><br>- Explore advanced <a href="https://nuxt.com/docs">Nuxt features</a><br>- Join the <a href="https://discord.com/invite/ps2h6QT">Nuxt Discord</a></p>
+<h2>🤔 Stuck?</h2>
+<p>- <strong>Check the console</strong> - Press F12 in your browser<br>- <strong>Read error messages</strong> - Nuxt has helpful errors<br>- <strong>Ask for help</strong> - The Vue/Nuxt community is friendly!</p>
+<p>Common issues:<br>- If styles look wrong, restart the dev server<br>- If pages 404, check your file names (use kebab-case)<br>- If deploys fail, check Node version (needs 18+)</p>
+<p>---</p>
+<p><strong>Ready?</strong> Go write your first post! Remember, the best blog is one that gets published. You can always customize more later. 🚀</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Organizing Your Content]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/organizing-content</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/organizing-content</guid>
+            <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to structure and manage your blog posts effectively]]></description>
+            <content:encoded><![CDATA[<p>This template uses <a href="https://content.nuxt.com/">Nuxt Content</a> for managing blog posts with Markdown files. Here's everything you need to know about organizing your content effectively.</p>
+<p>> 📚 Resources: <a href="https://content.nuxt.com/">Nuxt Content docs</a> | <a href="https://www.markdownguide.org/">Markdown guide</a></p>
+<h2>Content Directory Structure</h2>
+<p>All your blog posts live in the <code>content/</code> directory. You can organize them however makes sense for your blog:</p>
+<h3>Flat Structure (Simple)</h3>
+``<code>
+content/
+├── getting-started.md
+├── my-first-post.md
+├── another-post.md
+└── latest-update.md
+</code>`<code>
+<h3>Date-Based Structure (Recommended)</h3>
+</code>`<code>
+content/
+├── 2025/
+│   ├── 01/
+│   │   ├── getting-started.md
+│   │   └── new-year-post.md
+│   └── 02/
+│       └── february-update.md
+└── 2024/
+    └── 12/
+        └── year-end-review.md
+</code>`<code>
+<h3>Category-Based Structure</h3>
+</code>`<code>
+content/
+├── tutorials/
+│   ├── nuxt-basics.md
+│   └── vue-tips.md
+├── reviews/
+│   └── book-review.md
+└── personal/
+    └── about-me.md
+</code>`<code>
+<h2>Frontmatter Configuration</h2>
+<p>Every Markdown file should start with frontmatter containing metadata:</p>
+<p></code>`<code>markdown<br>---<br>title: Your Post Title<br>description: A brief description for SEO and previews<br>date: 2025-01-15<br>author: Your Name<br>draft: false<br>---</p>
+<h1>Your content starts here...</h1>
+</code>`<code>
+<h3>Required Fields</h3>
+- </code>title<code>: The post title (used in navigation and SEO)
+- </code>description<code>: Brief description (shown in post lists and SEO)
+<h3>Optional Fields</h3>
+- </code>date<code>: Publication date (YYYY-MM-DD format)
+- </code>author<code>: Author name
+- </code>draft<code>: Set to </code>true<code> to hide from production build
+<h3>Custom Fields</h3>
+You can add any custom fields you need:
+<p></code>`<code>markdown<br>---<br>title: My Post<br>description: Post description<br>date: 2025-01-15<br>category: Tutorial<br>tags: [nuxt, vue, web-development]<br>featured: true<br>readTime: 5 min<br>---<br></code>`<code></p>
+<h2>Writing in Markdown</h2>
+<p>Nuxt Content supports standard Markdown plus some enhancements:</p>
+<h3>Basic Formatting</h3>
+</code>`<code>markdown
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<p><strong>Bold text</strong><br><em>Italic text</em><br></code>Inline code<code></p>
+<p>- Bullet point<br>- Another point</p>
+<p>1. Numbered list<br>2. Second item</p>
+<p><a href="https://example.com">Link text</a><br></code>`<code></p>
+<h3>Code Blocks</h3>
+</code>`<code>markdown
+</code>`<code>javascript
+function hello() {
+  console.log('Hello, world!');
+}
+</code>`<code>
+</code>`<code>
+<h3>Images</h3>
+</code>`<code>markdown
+!<a href="/images/my-image.jpg">Alt text</a>
+</code>`<code>
+Place images in the </code>public/images/<code> directory.
+<h2>URL Structure</h2>
+<p>The URL for each post is automatically generated from its file path:</p>
+<p>- </code>content/my-post.md<code> → </code>/my-post<code><br>- </code>content/2025/01/hello-world.md<code> → </code>/2025/01/hello-world<code><br>- </code>content/tutorials/nuxt-guide.md<code> → </code>/tutorials/nuxt-guide<code></p>
+<h2>Content Management Tips</h2>
+<h3>1. Use Consistent Naming</h3>
+- Use kebab-case for filenames: </code>my-awesome-post.md<code>
+- Avoid spaces and special characters
+- Keep filenames descriptive but concise
+<h3>2. Organize by Date</h3>
+The date-based structure (</code>YYYY/MM/<code>) is recommended because:
+- Easy to find recent posts
+- Scales well over time
+- Natural chronological order
+<h3>3. Draft Posts</h3>
+Use </code>draft: true<code> in frontmatter to work on posts without publishing:
+<p></code>`<code>markdown<br>---<br>title: Work in Progress<br>description: This post isn't ready yet<br>draft: true<br>---<br></code>`<code></p>
+<h3>4. Consistent Frontmatter</h3>
+Create a template for new posts to ensure consistency:
+<p></code>`<code>markdown<br>---<br>title: <br>description: <br>date: <br>author: Your Name<br>draft: false<br>---</p>
+<h1>Title</h1>
+<p>Your content here...<br></code>`<code></p>
+<h3>5. Asset Management</h3>
+- Store images in </code>public/images/<code>
+- Use descriptive filenames for assets
+- Optimize images before uploading
+<h2>RSS Feed Integration</h2>
+<p>All published posts (where </code>draft !== true<code>) automatically appear in your RSS feed at </code>/feed.xml`. The feed uses:<br>- Post title and description from frontmatter<br>- Publication date<br>- Full content or excerpt</p>
+<h2>Next Steps</h2>
+<p>- <a href="/customizing-styles">Customizing Styles</a> - Style your content<br>- <a href="/creating-pages">Creating New Pages</a> - Add non-blog pages<br>- <a href="/site-configuration">Site Configuration</a> - Update site metadata</p>
+<p>Start creating your content and watch your blog come to life!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Customizing Styles]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/customizing-styles</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/customizing-styles</guid>
+            <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to customize the design and make this template uniquely yours]]></description>
+            <content:encoded><![CDATA[<p>This template uses Tailwind CSS for styling, making it easy to customize the design. Here's how to make it uniquely yours.</p>
+<h2>Understanding the Stack</h2>
+<p>- <strong><a href="https://tailwindcss.com/docs">Tailwind CSS</a></strong>: Utility-first CSS framework (<a href="https://nerdcave.com/tailwind-cheat-sheet">cheat sheet</a>)<br>- <strong><a href="https://fonts.nuxt.com/">Nuxt Fonts</a></strong>: Easy font loading (currently using Inter from Google Fonts)<br>- <strong><a href="https://vuejs.org/style-guide/">Vue Style Guide</a></strong>: Best practices for component styling<br>- <strong>Responsive Design</strong>: Mobile-first approach using Tailwind's <a href="https://tailwindcss.com/docs/responsive-design">responsive utilities</a></p>
+<h2>Quick Style Changes</h2>
+<h3>1. Colors</h3>
+Update the primary color in <code>tailwind.config.ts</code>:
+<p>``<code>typescript<br>import colors from 'tailwindcss/colors'</p>
+<p>export default {<br>  theme: {<br>    extend: {<br>      colors: {<br>        primary: colors.emerald,  // Change from blue to emerald<br>        // Or use custom colors<br>        primary: {<br>          50: '#f0fdf4',<br>          500: '#10b981',<br>          900: '#064e3b',<br>        }<br>      }<br>    }<br>  }<br>}<br></code>`<code></p>
+<h3>2. Typography</h3>
+The template uses Inter font by default. To change it:
+<p><strong>Option 1: Different Google Font</strong><br></code>`<code>typescript<br>// nuxt.config.ts<br>fonts: {<br>  families: [<br>    { name: 'Roboto', provider: 'google', display: 'swap' }<br>  ]<br>}</p>
+<p>// tailwind.config.ts<br>fontFamily: {<br>  sans: ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],<br>}<br></code>`<code></p>
+<p>> 🎨 Browse fonts at <a href="https://fonts.google.com/">Google Fonts</a> | Learn about <a href="https://fonts.nuxt.com/">Nuxt Fonts module</a></p>
+<p><strong>Option 2: System Fonts Only</strong><br></code>`<code>typescript<br>// tailwind.config.ts<br>fontFamily: {<br>  sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],<br>}<br></code>`<code></p>
+<h3>3. Layout Width</h3>
+Change the max width in </code>app/layouts/default.vue<code>:
+<p></code>`<code>vue<br><!-- Current: max-w-xl (576px) --><br><div class="max-w-xl mx-auto p-3"></p>
+<p><!-- Wider: max-w-4xl (896px) --><br><div class="max-w-4xl mx-auto p-3"></p>
+<p><!-- Full width with constraints --><br><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"><br></code>`<code></p>
+<h2>Component Customization</h2>
+<h3>Header Navigation</h3>
+Customize the header in </code>app/components/Header.vue<code>:
+<p></code>`<code>vue<br><template><br>  <header class="pt-4 border-b border-gray-200"><br>    <nav class="flex justify-between items-center"><br>      <div class="flex gap-3"><br>        <!-- Your navigation links --><br>      </div><br>      <div><br>        <!-- Add search, theme toggle, etc. --><br>      </div><br>    </nav><br>  </header><br></template><br></code>`<code></p>
+<p>> 📚 Learn about <a href="https://vuejs.org/guide/essentials/component-basics.html">Vue component basics</a> | <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox guide</a></p>
+<h3>Blog Post Lists</h3>
+Style the post listings in </code>app/pages/index.vue<code> and </code>app/pages/blog.vue<code>:
+<p></code>`<code>vue<br><!-- Add featured post styling --><br><NuxtLink <br>  v-for="page in pages" <br>  :key="page.path" <br>  :to="page.path" <br>  class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"<br>><br>  <div class="mb-2"><br>    <h2 class="text-xl font-semibold text-gray-900">{{ page.title }}</h2><br>    <p class="text-gray-600 mt-1">{{ page.description }}</p><br>  </div><br>  <div class="text-sm text-gray-500">{{ page.date }}</div><br></NuxtLink><br></code>`<code></p>
+<h3>Individual Post Pages</h3>
+Customize post content in </code>app/pages/[...slug].vue<code>:
+<p></code>`<code>vue<br><template><br>  <article class="max-w-none"><br>    <header class="mb-8"><br>      <h1 class="text-4xl font-bold tracking-tight mb-4">{{ page.title }}</h1><br>      <div class="flex items-center gap-4 text-sm text-gray-600"><br>        <time>{{ formatDate(page.date) }}</time><br>        <span>•</span><br>        <span>{{ page.author }}</span><br>      </div><br>    </header><br>    <ContentRenderer :value="page" class="prose prose-gray max-w-none"/><br>  </article><br></template><br></code>`<code></p>
+<h2>Advanced Customization</h2>
+<h3>1. Custom CSS Classes</h3>
+Add custom styles in your component </code><style><code> sections:
+<p></code>`<code>vue<br><style scoped><br>.custom-gradient {<br>  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);<br>}</p>
+<p>.glass-effect {<br>  background: rgba(255, 255, 255, 0.25);<br>  backdrop-filter: blur(10px);<br>  border: 1px solid rgba(255, 255, 255, 0.18);<br>}<br></style><br></code>`<code></p>
+<h3>2. Dark Mode</h3>
+Add dark mode support:
+<p></code>`<code>typescript<br>// tailwind.config.ts<br>module.exports = {<br>  darkMode: 'class', // Enable class-based dark mode<br>  // ... rest of config<br>}<br></code>`<code></p>
+<p></code>`<code>vue<br><!-- In your layout --><br><div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"><br>  <!-- Your content --><br></div><br></code>`<code></p>
+<p>> 🌓 Full guide: <a href="https://tailwindcss.com/docs/dark-mode">Tailwind Dark Mode</a> | <a href="https://vuejs.org/examples/#modal">Vue dark mode patterns</a></p>
+<h3>3. Content Styling</h3>
+Enhance markdown content rendering by adding Tailwind Typography:
+<p></code>`<code>bash<br>npm install @tailwindcss/typography<br></code>`<code></p>
+<p></code>`<code>typescript<br>// tailwind.config.ts<br>module.exports = {<br>  plugins: [<br>    require('@tailwindcss/typography'),<br>  ],<br>}<br></code>`<code></p>
+<p></code>`<code>vue<br><!-- Apply prose classes to content --><br><ContentRenderer :value="page" class="prose prose-gray lg:prose-xl"/><br></code>`<code></p>
+<h3>4. Custom Components</h3>
+Create reusable components in </code>app/components/<code>:
+<p></code>`<code>vue<br><!-- app/components/BlogCard.vue --><br><template><br>  <article class="bg-white rounded-lg shadow-sm overflow-hidden"><br>    <img v-if="image" :src="image" :alt="title" class="w-full h-48 object-cover"><br>    <div class="p-6"><br>      <h3 class="text-xl font-semibold mb-2">{{ title }}</h3><br>      <p class="text-gray-600 mb-4">{{ description }}</p><br>      <div class="flex justify-between items-center text-sm text-gray-500"><br>        <time>{{ date }}</time><br>        <span>{{ readTime }}</span><br>      </div><br>    </div><br>  </article><br></template><br></code>`<code></p>
+<h2>Responsive Design</h2>
+<p>The template is mobile-first. Customize breakpoints:</p>
+<p></code>`<code>vue<br><!-- Mobile: default --><br><!-- Tablet: sm: (640px+) --><br><!-- Desktop: lg: (1024px+) --></p>
+<p><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><br>  <!-- Responsive grid --><br></div><br></code>`<code></p>
+<h2>Performance Tips</h2>
+<h3>1. CSS Purging</h3>
+Tailwind automatically removes unused CSS in production.
+<h3>2. Font Loading</h3>
+Fonts are optimized with </code>display: swap<code> for better performance.
+<h3>3. Image Optimization</h3>
+For better performance, consider using Nuxt Image:
+<p></code>`<code>bash<br>npm install @nuxt/image<br></code>`<code></p>
+<p></code>`<code>vue<br><NuxtImg src="/images/hero.jpg" alt="Hero image" /><br></code>`<code></p>
+<h2>Theme Examples</h2>
+<h3>Minimal Blog</h3>
+</code>`<code>css
+/<em> Focus on typography and whitespace </em>/
+.minimal-theme {
+  @apply bg-white text-gray-900;
+  @apply font-light leading-relaxed;
+}
+</code>`<code>
+<h3>Dark Tech Blog</h3>
+</code>`<code>css
+.dark-tech-theme {
+  @apply bg-gray-900 text-green-400;
+  @apply font-mono;
+}
+</code>`<code>
+<h3>Creative Portfolio</h3>
+</code>`<code>css
+.creative-theme {
+  @apply bg-gradient-to-br from-purple-400 to-pink-400;
+  @apply text-white;
+}
+</code>``
+<h2>Next Steps</h2>
+<p>- <a href="/creating-pages">Creating New Pages</a> - Add custom pages<br>- <a href="/site-configuration">Site Configuration</a> - Update branding<br>- <a href="/deployment">Deployment</a> - Go live with your styled blog</p>
+<p>Ready to make this template your own? Start by updating the colors and typography to match your brand!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Creating New Pages]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/creating-pages</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/creating-pages</guid>
+            <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to add custom pages and understand Nuxt routing in your blog]]></description>
+            <content:encoded><![CDATA[<p>Beyond blog posts, you might want to add custom pages like About, Contact, or Portfolio. Here's how to create and manage pages in your Nuxt blog.</p>
+<h2>Understanding Nuxt Routing</h2>
+<p>Nuxt uses <a href="https://nuxt.com/docs/guide/directory-structure/pages">file-based routing</a>. Files in the <code>app/pages/</code> directory automatically become routes:</p>
+<p>``<code><br>app/pages/<br>├── index.vue          → / (homepage)<br>├── blog.vue          → /blog<br>├── about.vue         → /about<br>├── contact.vue       → /contact<br>└── [...slug].vue     → Dynamic route for blog posts<br></code>`<code></p>
+<p>> 📚 Deep dive: <a href="https://nuxt.com/docs/getting-started/routing">Nuxt Routing</a> | <a href="https://router.vuejs.org/">Vue Router docs</a></p>
+<h2>Current Page Structure</h2>
+<p>Your template includes these pages:</p>
+<p>- <strong></code>index.vue<code></strong>: Homepage with blog post listing<br>- <strong></code>blog.vue<code></strong>: Dedicated blog page (same content as homepage)<br>- <strong></code>[...slug].vue<code></strong>: Dynamic route that displays individual blog posts</p>
+<h2>Creating Static Pages</h2>
+<h3>About Page</h3>
+Create </code>app/pages/about.vue<code>:
+<p></code>`<code>vue<br><template><br>  <div class="mt-20"><br>    <h1 class="text-2xl font-semibold tracking-tighter mb-8">About</h1><br>    <br>    <div class="prose prose-gray max-w-none"><br>      <p class="text-lg mb-6"><br>        Welcome! I'm a developer passionate about creating amazing web experiences.<br>      </p><br>      <br>      <h2>What I Do</h2><br>      <p><br>        I specialize in modern web development using Vue, Nuxt, and other <br>        cutting-edge technologies.<br>      </p><br>      <br>      <h2>Get In Touch</h2><br>      <p><br>        Feel free to reach out if you'd like to collaborate or just say hello!<br>      </p><br>      <br>      <div class="flex gap-4 mt-8"><br>        <a href="mailto:hello@example.com" class="underline">Email</a><br>        <a href="https://twitter.com/yourusername" class="underline">Twitter</a><br>        <a href="https://github.com/yourusername" class="underline">GitHub</a><br>      </div><br>    </div><br>  </div><br></template></p>
+<p><script setup><br>// Set page meta<br>useHead({<br>  title: 'About',<br>  meta: [<br>    { name: 'description', content: 'Learn more about me and what I do.' }<br>  ]<br>})<br></script><br></code>`<code></p>
+<p>> 🔍 Learn about <a href="https://nuxt.com/docs/api/composables/use-head">useHead composable</a> | <a href="https://vuejs.org/api/sfc-script-setup.html">Vue script setup</a></p>
+<h3>Contact Page</h3>
+Create </code>app/pages/contact.vue<code>:
+<p></code>`<code>vue<br><template><br>  <div class="mt-20"><br>    <h1 class="text-2xl font-semibold tracking-tighter mb-8">Contact</h1><br>    <br>    <div class="max-w-md"><br>      <form @submit.prevent="submitForm" class="space-y-6"><br>        <div><br>          <label for="name" class="block text-sm font-medium mb-2">Name</label><br>          <input <br>            v-model="form.name"<br>            type="text" <br>            id="name" <br>            required<br>            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"<br>          ><br>        </div><br>        <br>        <div><br>          <label for="email" class="block text-sm font-medium mb-2">Email</label><br>          <input <br>            v-model="form.email"<br>            type="email" <br>            id="email" <br>            required<br>            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"<br>          ><br>        </div><br>        <br>        <div><br>          <label for="message" class="block text-sm font-medium mb-2">Message</label><br>          <textarea <br>            v-model="form.message"<br>            id="message" <br>            rows="4" <br>            required<br>            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"<br>          ></textarea><br>        </div><br>        <br>        <button <br>          type="submit" <br>          :disabled="submitting"<br>          class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:opacity-50"<br>        ><br>          {{ submitting ? 'Sending...' : 'Send Message' }}<br>        </button><br>      </form><br>      <br>      <div v-if="submitted" class="mt-4 p-4 bg-green-100 text-green-700 rounded-md"><br>        Thank you! Your message has been sent.<br>      </div><br>    </div><br>  </div><br></template></p>
+<p><script setup><br>const form = reactive({<br>  name: '',<br>  email: '',<br>  message: ''<br>})</p>
+<p>const submitting = ref(false)<br>const submitted = ref(false)</p>
+<p>const submitForm = async () => {<br>  submitting.value = true<br>  <br>  // Here you would typically send to an API endpoint<br>  // For now, we'll just simulate a delay<br>  await new Promise(resolve => setTimeout(resolve, 1000))<br>  <br>  submitted.value = true<br>  submitting.value = false<br>  <br>  // Reset form<br>  Object.keys(form).forEach(key => form[key] = '')<br>}</p>
+<p>// Learn about reactive data: https://vuejs.org/guide/essentials/reactivity-fundamentals.html</p>
+<p>useHead({<br>  title: 'Contact',<br>  meta: [<br>    { name: 'description', content: 'Get in touch with me.' }<br>  ]<br>})<br></script><br></code>`<code></p>
+<h2>Adding Pages to Navigation</h2>
+<p>Update </code>app/components/Header.vue<code> to include new pages:</p>
+<p></code>`<code>vue<br><script setup><br>const navItems = {<br>  'home': {<br>    name: 'home',<br>    path: '/',<br>    external: false<br>  },<br>  'blog': {<br>    name: 'blog',<br>    path: '/blog',<br>    external: false<br>  },<br>  'about': {<br>    name: 'about',<br>    path: '/about',<br>    external: false<br>  },<br>  'contact': {<br>    name: 'contact',<br>    path: '/contact',<br>    external: false<br>  },<br>  'deploy': {<br>    name: 'deploy',<br>    path: 'https://vercel.com/new/clone?repository-url=...',<br>    external: true<br>  }<br>}<br></script><br></code>`<code></p>
+<h2>Dynamic Routes</h2>
+<h3>Nested Routes</h3>
+Create folders for nested routes:
+<p></code>`<code><br>app/pages/<br>├── portfolio/<br>│   ├── index.vue     → /portfolio<br>│   └── [slug].vue    → /portfolio/project-name<br>└── blog/<br>    ├── index.vue     → /blog<br>    └── [slug].vue    → /blog/post-name<br></code>`<code></p>
+<h3>Route Parameters</h3>
+Access route parameters in your pages:
+<p></code>`<code>vue<br><!-- app/pages/portfolio/[slug].vue --><br><template><br>  <div><br>    <h1>Project: {{ $route.params.slug }}</h1><br>  </div><br></template></p>
+<p><script setup><br>const route = useRoute()<br>const projectSlug = route.params.slug<br></script><br></code>`<code></p>
+<h2>Page Layouts</h2>
+<h3>Using Different Layouts</h3>
+Create custom layouts in </code>app/layouts/<code>:
+<p></code>`<code>vue<br><!-- app/layouts/minimal.vue --><br><template><br>  <div class="min-h-screen bg-gray-50"><br>    <div class="max-w-2xl mx-auto py-12 px-4"><br>      <slot /><br>    </div><br>  </div><br></template><br></code>`<code></p>
+<p>Use in a page:</p>
+<p></code>`<code>vue<br><!-- app/pages/special.vue --><br><template><br>  <div><br>    <h1>Special Page</h1><br>  </div><br></template></p>
+<p><script setup><br>definePageMeta({<br>  layout: 'minimal'<br>})<br></script><br></code>`<code></p>
+<h2>SEO and Meta Tags</h2>
+<h3>Page-specific SEO</h3>
+Use </code>useHead()<code> for better SEO:
+<p></code>`<code>vue<br><script setup><br>useHead({<br>  title: 'About - My Blog',<br>  meta: [<br>    { name: 'description', content: 'Learn more about me and my work.' },<br>    { property: 'og:title', content: 'About - My Blog' },<br>    { property: 'og:description', content: 'Learn more about me and my work.' },<br>    { property: 'og:image', content: '/images/about-og.jpg' }<br>  ]<br>})<br></script><br></code>`<code></p>
+<h3>Dynamic SEO</h3>
+For dynamic pages, generate meta from data:
+<p></code>`<code>vue<br><script setup><br>const { data: project } = await useAsyncData('project', () => {<br>  return queryCollection('projects').path(route.path).first()<br>})</p>
+<p>useHead({<br>  title: () => </code>${project.value?.title} - Portfolio<code>,<br>  meta: [<br>    { name: 'description', content: () => project.value?.description }<br>  ]<br>})<br></script><br></code>`<code></p>
+<h2>Advanced Features</h2>
+<h3>Page Transitions</h3>
+Add smooth transitions between pages:
+<p></code>`<code>vue<br><!-- app.vue --><br><template><br>  <NuxtLayout><br>    <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" /><br>  </NuxtLayout><br></template></p>
+<p><style><br>.page-enter-active,<br>.page-leave-active {<br>  transition: opacity 0.3s;<br>}<br>.page-enter-from,<br>.page-leave-to {<br>  opacity: 0;<br>}<br></style><br></code>`<code></p>
+<h3>API Routes</h3>
+Create API endpoints in </code>server/api/<code>:
+<p></code>`<code>typescript<br>// server/api/contact.post.ts<br>export default defineEventHandler(async (event) => {<br>  const body = await readBody(event)<br>  <br>  // Process contact form<br>  // Send email, save to database, etc.<br>  <br>  return { success: true }<br>})<br></code>`<code></p>
+<p>Use in your contact form:</p>
+<p></code>`<code>vue<br><script setup><br>const submitForm = async () => {<br>  const { data } = await $fetch('/api/contact', {<br>    method: 'POST',<br>    body: form<br>  })<br>}<br></script><br></code>`<code></p>
+<h2>Common Page Types</h2>
+<h3>Portfolio Page</h3>
+</code>`<code>vue
+<!-- app/pages/portfolio.vue -->
+<template>
+  <div class="mt-20">
+    <h1 class="text-2xl font-semibold tracking-tighter mb-8">Portfolio</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div v-for="project in projects" :key="project.id" class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img :src="project.image" :alt="project.title" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
+          <p class="text-gray-600 mb-4">{{ project.description }}</p>
+          <a :href="project.url" class="text-blue-600 hover:underline">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+</code>`<code>
+<h3>404 Error Page</h3>
+</code>`<code>vue
+<!-- app/error.vue -->
+<template>
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-4">{{ error.statusCode }}</h1>
+      <p class="text-gray-600 mb-8">{{ error.statusMessage }}</p>
+      <NuxtLink to="/" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
+        Go Home
+      </NuxtLink>
+    </div>
+  </div>
+</template>
+<p><script setup><br>const props = defineProps(['error'])<br></script><br></code>``</p>
+<h2>Next Steps</h2>
+<p>- <a href="/site-configuration">Site Configuration</a> - Update meta information<br>- <a href="/deployment">Deployment</a> - Deploy your enhanced blog<br>- <a href="/customizing-styles">Customizing Styles</a> - Style your new pages</p>
+<p>Start adding the pages your blog needs to become a complete website!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Deployment Guide]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/deployment</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/deployment</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to deploy your blog to various hosting platforms]]></description>
+            <content:encoded><![CDATA[<p>Ready to share your blog with the world? This guide covers deploying your Nuxt blog to various hosting platforms.</p>
+<p>> 🚀 Quick links: <a href="https://nuxt.com/docs/getting-started/deployment">Nuxt deployment guide</a> | <a href="https://nuxt.com/deploy">Hosting providers</a></p>
+<h2>Quick Deploy Options</h2>
+<h3>1. Vercel (Recommended)</h3>
+<strong>One-click deployment</strong> using the deploy button in your header.
+<p><strong>Manual Deployment:</strong><br>1. Push your code to GitHub<br>2. Visit <a href="https://vercel.com">vercel.com</a><br>3. Import your repository<br>4. Vercel automatically detects Nuxt and configures everything<br>5. Your blog is live in minutes!</p>
+<p>> 📖 <a href="https://vercel.com/guides/deploying-nuxt-with-vercel">Vercel Nuxt guide</a></p>
+<p><strong>Benefits:</strong><br>- Zero configuration required<br>- Automatic deployments on git push<br>- Edge network for fast loading<br>- Built-in analytics and performance monitoring</p>
+<h3>2. Netlify</h3>
+1. Push your code to GitHub/GitLab
+2. Connect your repository at <a href="https://netlify.com">netlify.com</a>
+3. Build settings:
+   - Build command: <code>npm run build</code>
+   - Publish directory: <code>.output/public</code>
+4. Deploy!
+<h3>3. GitHub Pages</h3>
+Add GitHub Actions workflow (<code>.github/workflows/deploy.yml</code>):
+<p>``<code>yaml<br>name: Deploy to GitHub Pages</p>
+<p>on:<br>  push:<br>    branches: [ main ]</p>
+<p>jobs:<br>  deploy:<br>    runs-on: ubuntu-latest<br>    steps:<br>      - uses: actions/checkout@v3<br>      <br>      - uses: actions/setup-node@v3<br>        with:<br>          node-version: 18<br>          <br>      - run: npm ci<br>      - run: npm run build<br>      - run: npm run generate<br>      <br>      - uses: peaceiris/actions-gh-pages@v3<br>        with:<br>          github<em>token: ${{ secrets.GITHUB</em>TOKEN }}<br>          publish_dir: .output/public<br></code>`<code></p>
+<h3>4. Cloudflare Pages</h3>
+1. Connect your repository
+2. Build settings:
+   - Build command: </code>npm run build<code>
+   - Output directory: </code>.output/public<code>
+3. Deploy
+<h2>Pre-Deployment Checklist</h2>
+<h3>1. Update Site Configuration</h3>
+Before deploying, update your site information in </code>nuxt.config.ts<code>:
+<p></code>`<code>typescript<br>export default defineNuxtConfig({<br>  site: {<br>    url: 'https://yourdomain.com',           // Your actual domain<br>    name: 'Your Blog Name',                  // Your blog title<br>    description: 'Your blog description',    // SEO description<br>    defaultLocale: 'en',<br>  },<br>  // ... rest of config<br>})<br></code>`<code></p>
+<h3>2. Update RSS Feed URLs</h3>
+Check </code>server/routes/feed.xml.ts<code> and update URLs:
+<p></code>`<code>typescript<br>const feed = new Feed({<br>  title: 'Your Blog Name',<br>  description: 'Your blog description',<br>  id: 'https://yourdomain.com',<br>  link: 'https://yourdomain.com',<br>  feedLinks: {<br>    rss2: 'https://yourdomain.com/feed.xml',<br>  }<br>})<br></code>`<code></p>
+<h3>3. Update Social Links</h3>
+Update GitHub and other links in your templates:
+<p></code>`<code>vue<br><!-- app/pages/index.vue --><br><NuxtLink to="https://github.com/yourusername/your-repo" class="underline"><br>  GitHub<br></NuxtLink><br></code>`<code></p>
+<h3>4. Add Favicon</h3>
+Replace </code>public/favicon.ico<code> with your own favicon.
+<h3>5. Create robots.txt</h3>
+Update </code>public/_robots.txt<code> (remove the underscore to activate):
+<p></code>`<code><br>User-agent: *<br>Allow: /</p>
+<p>Sitemap: https://yourdomain.com/sitemap.xml<br></code>`<code></p>
+<h2>Environment Variables</h2>
+<h3>For Dynamic Configuration</h3>
+Create </code>.env<code> file for local development:
+<p></code>`<code>bash<br>NUXT<em>SITE</em>URL=http://localhost:3000<br>NUXT<em>SITE</em>NAME=My Blog<br></code>`<code></p>
+<p>Update </code>nuxt.config.ts<code> to use environment variables:</p>
+<p></code>`<code>typescript<br>export default defineNuxtConfig({<br>  site: {<br>    url: process.env.NUXT<em>SITE</em>URL || 'https://yourdomain.com',<br>    name: process.env.NUXT<em>SITE</em>NAME || 'Your Blog',<br>  },<br>})<br></code>`<code></p>
+<h3>Platform-Specific Variables</h3>
+<p><strong>Vercel:</strong><br>Set in dashboard under Project Settings → Environment Variables</p>
+<p><strong>Netlify:</strong><br>Set in Site Settings → Environment Variables</p>
+<p><strong>GitHub Pages:</strong><br>Set in repository Settings → Secrets and Variables → Actions</p>
+<h2>Custom Domain Setup</h2>
+<h3>1. Domain Configuration</h3>
+Most platforms require:
+1. Add your custom domain in platform settings
+2. Update DNS records to point to platform servers
+3. Wait for DNS propagation (can take 24-48 hours)
+<h3>2. SSL Certificates</h3>
+All recommended platforms provide automatic SSL certificates for custom domains.
+<h2>Build Optimization</h2>
+<h3>1. Static Generation</h3>
+For better performance, consider static generation:
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  nitro: {<br>    prerender: {<br>      routes: ['/sitemap.xml', '/feed.xml']<br>    }<br>  }<br>})<br></code>`<code></p>
+<h3>2. Image Optimization</h3>
+Install and configure Nuxt Image:
+<p></code>`<code>bash<br>npm install @nuxt/image<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>modules: [<br>  '@nuxt/image',<br>  // ... other modules<br>]<br></code>`<code></p>
+<h3>3. Performance Monitoring</h3>
+Add analytics if needed:
+<p></code>`<code>typescript<br>// For Google Analytics<br>modules: [<br>  '@nuxtjs/google-analytics',<br>  // ... other modules<br>],<br>googleAnalytics: {<br>  id: 'GA<em>MEASUREMENT</em>ID'<br>}<br></code>`<code></p>
+<h2>Troubleshooting Common Issues</h2>
+<h3>Build Errors</h3>
+<p><strong>Node Version Issues:</strong><br>Ensure you're using Node 18+ in your deployment platform.</p>
+<p><strong>Dependency Issues:</strong><br></code>`<code>bash<br><h1>Clear cache and reinstall</h1><br>rm -rf node_modules package-lock.json<br>npm install<br></code>`<code></p>
+<p><strong>TypeScript Errors:</strong><br></code>`<code>bash<br><h1>Generate Nuxt types</h1><br>npm run postinstall<br></code>`<code></p>
+<h3>Runtime Errors</h3>
+<p><strong>404 Errors:</strong><br>- Check your </code>[...slug].vue<code> route is correctly configured<br>- Ensure content files have proper frontmatter</p>
+<p><strong>Font Loading Issues:</strong><br>- Verify font configuration in </code>nuxt.config.ts<code><br>- Check network connectivity to Google Fonts</p>
+<p><strong>RSS Feed Issues:</strong><br>- Update all URLs to use your production domain<br>- Test feed at </code>/feed.xml<code> after deployment</p>
+<h3>Performance Issues</h3>
+<p><strong>Slow Loading:</strong><br>- Enable static generation where possible<br>- Optimize images before uploading<br>- Use a CDN for assets</p>
+<p><strong>Large Bundle Size:</strong><br>- Review and remove unused dependencies<br>- Consider code splitting for large components</p>
+<h2>Deployment Best Practices</h2>
+<h3>1. Branch Strategy</h3>
+- Use </code>main<code> branch for production
+- Test in </code>staging<code> branch before merging
+- Use pull requests for code review
+<h3>2. Automated Testing</h3>
+Add basic tests before deployment:
+<p></code>`<code>json<br>// package.json<br>{<br>  "scripts": {<br>    "test": "npm run lint && npm run typecheck",<br>    "lint": "nuxt lint",<br>    "typecheck": "nuxt typecheck"<br>  }<br>}<br></code>``</p>
+<h3>3. Content Workflow</h3>
+- Preview content changes locally before publishing
+- Use draft posts for work-in-progress content
+- Keep content backups in version control
+<h3>4. Monitoring</h3>
+- Set up uptime monitoring
+- Monitor Core Web Vitals
+- Check RSS feed regularly
+- Monitor broken links
+<h2>Platform Comparison</h2>
+<p>| Platform | Setup | Auto Deploy | Custom Domain | SSL | Analytics |<br>|----------|-------|-------------|---------------|-----|-----------|<br>| Vercel | ⭐⭐⭐ | ✅ | ✅ | ✅ | ✅ |<br>| Netlify | ⭐⭐⭐ | ✅ | ✅ | ✅ | ✅ |<br>| Cloudflare | ⭐⭐ | ✅ | ✅ | ✅ | ✅ |<br>| GitHub Pages | ⭐ | ✅ | ✅ | ✅ | ❌ |</p>
+<h2>Post-Deployment</h2>
+<h3>1. SEO Setup</h3>
+- Submit sitemap to Google Search Console
+- Set up Google Analytics or similar
+- Verify social media sharing works correctly
+<h3>2. Content Migration</h3>
+If migrating from another platform:
+- Set up redirects for old URLs
+- Update internal links
+- Preserve publication dates
+<h3>3. Performance Testing</h3>
+- Test on mobile devices
+- Check loading speeds with tools like PageSpeed Insights
+- Verify all features work in production
+<h2>Next Steps</h2>
+<p>- <a href="/site-configuration">Site Configuration</a> - Fine-tune your settings<br>- <a href="/getting-started">Getting Started</a> - Review the basics<br>- <a href="/customizing-styles">Customizing Styles</a> - Polish your design</p>
+<p>Your blog is now live! Share your URL and start building your audience.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Advanced Configuration]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/advanced-configuration</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/advanced-configuration</guid>
+            <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Optional advanced settings for analytics, performance, and customization]]></description>
+            <content:encoded><![CDATA[<p>These are <strong>optional</strong> advanced configurations. Your blog works great without them! Only configure what you need.</p>
+<h2>Analytics & Monitoring</h2>
+<h3>Google Analytics (Most Popular)</h3>
+<p>``<code>bash<br>npm install @nuxtjs/google-analytics<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['@nuxtjs/google-analytics'],<br>  googleAnalytics: {<br>    id: 'G-XXXXXXXXXX'  // Your GA4 measurement ID<br>  }<br>})<br></code>`<code></p>
+<p>> 📊 Get your ID from <a href="https://analytics.google.com/">Google Analytics</a></p>
+<h3>Plausible Analytics (Privacy-Friendly)</h3>
+<p></code>`<code>bash<br>npm install @nuxtjs/plausible<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['@nuxtjs/plausible'],<br>  plausible: {<br>    domain: 'yourdomain.com'<br>  }<br>})<br></code>`<code></p>
+<p>> 🔒 No cookies, GDPR compliant - <a href="https://plausible.io/">plausible.io</a></p>
+<h2>Performance Optimization</h2>
+<h3>Image Optimization</h3>
+<p>Install Nuxt Image for automatic optimization:</p>
+<p></code>`<code>bash<br>npm install @nuxt/image<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['@nuxt/image'],<br>  image: {<br>    quality: 80,<br>    format: ['webp', 'jpg']<br>  }<br>})<br></code>`<code></p>
+<p>Then use in your posts:<br></code>`<code>vue<br><NuxtImg src="/images/hero.jpg" alt="Hero" loading="lazy" /><br></code>`<code></p>
+<h3>Static Site Generation</h3>
+<p>For maximum performance, pre-render all pages:</p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  nitro: {<br>    prerender: {<br>      crawlLinks: true,  // Automatically find and prerender all pages<br>      routes: ['/sitemap.xml', '/feed.xml']<br>    }<br>  }<br>})<br></code>`<code></p>
+<h2>Advanced SEO</h2>
+<h3>Structured Data (Schema.org)</h3>
+<p>Add to your post template (</code>app/pages/[...slug].vue<code>):</p>
+<p></code>`<code>vue<br><script setup><br>useHead({<br>  script: [{<br>    type: 'application/ld+json',<br>    innerHTML: JSON.stringify({<br>      '@context': 'https://schema.org',<br>      '@type': 'BlogPosting',<br>      headline: page.value.title,<br>      description: page.value.description,<br>      author: {<br>        '@type': 'Person',<br>        name: page.value.author<br>      },<br>      datePublished: page.value.date<br>    })<br>  }]<br>})<br></script><br></code>`<code></p>
+<h3>Open Graph Images</h3>
+<p>Generate dynamic OG images for each post:</p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['nuxt-og-image'],<br>  ogImage: {<br>    fonts: ['Inter:400', 'Inter:700']<br>  }<br>})<br></code>`<code></p>
+<h2>Security Headers</h2>
+<h3>Content Security Policy</h3>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  nitro: {<br>    security: {<br>      headers: {<br>        contentSecurityPolicy: {<br>          'img-src': ["'self'", 'data:', 'https:'],<br>          'font-src': ["'self'", 'https://fonts.gstatic.com'],<br>          'style-src': ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com']<br>        }<br>      }<br>    }<br>  }<br>})<br></code>`<code></p>
+<h2>Custom Features</h2>
+<h3>Reading Time</h3>
+<p>Add automatic reading time calculation:</p>
+<p></code>`<code>typescript<br>// content.config.ts<br>export default defineContentConfig({<br>  experimental: {<br>    clientDB: true<br>  },<br>  markdown: {<br>    remarkPlugins: ['remark-reading-time']<br>  }<br>})<br></code>`<code></p>
+<h3>Comments System</h3>
+<p><strong>Option 1: Giscus (GitHub-based)</strong></p>
+<p></code>`<code>vue<br><!-- Add to app/pages/[...slug].vue --><br><script setup><br>onMounted(() => {<br>  const script = document.createElement('script')<br>  script.src = 'https://giscus.app/client.js'<br>  script.setAttribute('data-repo', 'your-username/your-repo')<br>  script.setAttribute('data-repo-id', 'your-repo-id')<br>  script.setAttribute('data-category', 'Announcements')<br>  script.setAttribute('data-category-id', 'your-category-id')<br>  script.setAttribute('data-mapping', 'pathname')<br>  script.setAttribute('data-theme', 'light')<br>  script.crossOrigin = 'anonymous'<br>  script.async = true<br>  <br>  document.getElementById('comments').appendChild(script)<br>})<br></script></p>
+<p><template><br>  <div id="comments" class="mt-16"></div><br></template><br></code>`<code></p>
+<p>> 💬 Set up at <a href="https://giscus.app/">giscus.app</a></p>
+<h3>Comments System</h3>
+<p><strong>Option 2: Disqus</strong></p>
+<p></code>`<code>vue<br><!-- Add to app/pages/[...slug].vue --><br><div id="disqus_thread" class="mt-16"></div></p>
+<p><script setup><br>onMounted(() => {<br>  const disqus_config = function () {<br>    this.page.url = window.location.href<br>    this.page.identifier = route.path<br>  }<br>  <br>  const d = document, s = d.createElement('script')<br>  s.src = 'https://YOUR-SHORTNAME.disqus.com/embed.js'<br>  s.setAttribute('data-timestamp', +new Date())<br>  (d.head || d.body).appendChild(s)<br>})<br></script><br></code>`<code></p>
+<h2>Environment Variables</h2>
+<h3>Using .env Files</h3>
+<p>Create </code>.env<code> for local development:</p>
+<p></code>`<code>bash<br><h1>.env</h1><br>NUXT<em>PUBLIC</em>SITE_URL=http://localhost:3000<br>NUXT<em>PUBLIC</em>SITE_NAME="My Dev Blog"<br>NUXT<em>GOOGLE</em>ANALYTICS_ID=G-XXXXXXXXXX<br>NUXT<em>API</em>SECRET=your-secret-key<br></code>`<code></p>
+<p>Access in your app:</p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  runtimeConfig: {<br>    apiSecret: '',  // Private, server-only<br>    public: {<br>      siteUrl: '',<br>      siteName: '',<br>      googleAnalyticsId: ''<br>    }<br>  }<br>})<br></code>`<code></p>
+<p></code>`<code>vue<br><!-- In components --><br><script setup><br>const config = useRuntimeConfig()<br>console.log(config.public.siteName)<br></script><br></code>`<code></p>
+<p>> 🔐 <a href="https://nuxt.com/docs/guide/going-further/runtime-config">Nuxt Runtime Config docs</a></p>
+<h2>Dark Mode</h2>
+<h3>Simple Toggle Implementation</h3>
+<p></code>`<code>vue<br><!-- app/components/DarkModeToggle.vue --><br><template><br>  <button @click="toggleDark" class="p-2"><br>    {{ isDark ? '☀️' : '🌙' }}<br>  </button><br></template></p>
+<p><script setup><br>const isDark = ref(false)</p>
+<p>onMounted(() => {<br>  isDark.value = localStorage.getItem('dark-mode') === 'true'<br>  updateDarkMode()<br>})</p>
+<p>const toggleDark = () => {<br>  isDark.value = !isDark.value<br>  localStorage.setItem('dark-mode', isDark.value)<br>  updateDarkMode()<br>}</p>
+<p>const updateDarkMode = () => {<br>  document.documentElement.classList.toggle('dark', isDark.value)<br>}<br></script><br></code>`<code></p>
+<p>Update your Tailwind config:</p>
+<p></code>`<code>typescript<br>// tailwind.config.ts<br>export default {<br>  darkMode: 'class',<br>  // ... rest of config<br>}<br></code>`<code></p>
+<h2>Internationalization (i18n)</h2>
+<h3>Basic Multi-language Support</h3>
+<p></code>`<code>bash<br>npm install @nuxtjs/i18n<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['@nuxtjs/i18n'],<br>  i18n: {<br>    locales: [<br>      { code: 'en', name: 'English' },<br>      { code: 'es', name: 'Español' },<br>      { code: 'fr', name: 'Français' }<br>    ],<br>    defaultLocale: 'en',<br>    strategy: 'prefix<em>except</em>default'<br>  }<br>})<br></code>`<code></p>
+<h2>Advanced Content Features</h2>
+<h3>Table of Contents</h3>
+<p>Add automatic TOC generation:</p>
+<p></code>`<code>vue<br><!-- In app/pages/[...slug].vue --><br><script setup><br>const { toc } = page.value<br></script></p>
+<p><template><br>  <aside v-if="toc && toc.links.length" class="toc"><br>    <h3>Table of Contents</h3><br>    <nav><br>      <ul><br>        <li v-for="link in toc.links" :key="link.id"><br>          <a :href="</code>#${link.id}<code>">{{ link.text }}</a><br>        </li><br>      </ul><br>    </nav><br>  </aside><br></template><br></code>`<code></p>
+<h3>Related Posts</h3>
+<p>Show related content:</p>
+<p></code>`<code>vue<br><script setup><br>const { data: relatedPosts } = await useAsyncData('related', () => {<br>  return queryCollection('content')<br>    .where({ <br>      category: page.value.category,<br>      <em>path: { $ne: page.value.</em>path }<br>    })<br>    .limit(3)<br>    .all()<br>})<br></script><br></code>`<code></p>
+<h2>Monitoring & Error Tracking</h2>
+<h3>Sentry Integration</h3>
+<p></code>`<code>bash<br>npm install @nuxtjs/sentry<br></code>`<code></p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  modules: ['@nuxtjs/sentry'],<br>  sentry: {<br>    dsn: 'https://your-dsn@sentry.io/project-id',<br>    config: {<br>      environment: process.env.NODE_ENV<br>    }<br>  }<br>})<br></code>`<code></p>
+<h2>Deployment Optimizations</h2>
+<h3>Edge Functions</h3>
+<p>For Vercel/Cloudflare:</p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  nitro: {<br>    preset: 'vercel-edge',  // or 'cloudflare-pages'<br>    <br>    // Edge function config<br>    vercel: {<br>      functions: {<br>        maxDuration: 10<br>      }<br>    }<br>  }<br>})<br></code>`<code></p>
+<h3>CDN Configuration</h3>
+<p></code>`<code>typescript<br>// For Cloudflare<br>export default defineNuxtConfig({<br>  nitro: {<br>    cloudflare: {<br>      pages: {<br>        routes: {<br>          include: ['/*'],<br>          exclude: ['/api/*']<br>        }<br>      }<br>    }<br>  }<br>})<br></code>`<code></p>
+<h2>Testing</h2>
+<h3>Unit Tests with Vitest</h3>
+<p></code>`<code>bash<br>npm install -D @nuxt/test-utils vitest @vue/test-utils<br></code>`<code></p>
+<p></code>`<code>typescript<br>// vitest.config.ts<br>import { defineConfig } from 'vitest/config'<br>import vue from '@vitejs/plugin-vue'</p>
+<p>export default defineConfig({<br>  plugins: [vue()],<br>  test: {<br>    environment: 'happy-dom'<br>  }<br>})<br></code>`<code></p>
+<h2>Troubleshooting</h2>
+<h3>Common Issues</h3>
+<p><strong>Build Errors:</strong><br></code>`<code>bash<br><h1>Clear all caches</h1><br>rm -rf .nuxt .output node_modules/.cache<br>npm run build<br></code>`<code></p>
+<p><strong>Type Errors:</strong><br></code>`<code>bash<br><h1>Regenerate types</h1><br>npm run postinstall<br></code>`<code></p>
+<p><strong>Performance Issues:</strong><br>- Enable prerendering for static content<br>- Use </code><NuxtImg>` for images<br>- Lazy load heavy components</p>
+<p>> 📚 Full docs: <a href="https://nuxt.com/docs">nuxt.com/docs</a></p>
+<h2>Next Steps</h2>
+<p>- <a href="/essential-configuration">Essential Configuration</a> - The must-do settings<br>- <a href="/deployment">Deployment</a> - Deploy your blog<br>- <a href="/building-with-nuxt-and-vue">Building with Nuxt and Vue</a> - Understand the codebase</p>
+<p>Remember: These are all <strong>optional</strong> enhancements. Your blog works great with just the essential configuration!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Essential Configuration - The Must-Do Settings]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/essential-configuration</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/essential-configuration</guid>
+            <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 10 essential settings you need to configure before going live]]></description>
+            <content:encoded><![CDATA[<p><strong>Time needed: 10 minutes</strong> ⏱️</p>
+<p>These are the essential configurations you <strong>must</strong> update before deploying your blog. Everything else can wait!</p>
+<h2>1. Site Information (2 minutes)</h2>
+<p>Update <code>nuxt.config.ts</code> with your actual information:</p>
+<p>``<code>typescript<br>export default defineNuxtConfig({<br>  site: {<br>    url: 'https://yourdomain.com',      // ← Your actual domain<br>    name: 'Your Blog Name',             // ← Your blog title  <br>    description: 'Your blog tagline',   // ← Your blog description<br>    defaultLocale: 'en',                // ← Your language code<br>  },<br></code>`<code></p>
+<p><strong>Why this matters:</strong> Used for SEO, social sharing, and your RSS feed.</p>
+<p>> 📚 <a href="https://nuxt.com/docs/api/configuration/nuxt-config#site">Nuxt Site Config docs</a></p>
+<h2>2. RSS Feed Information (2 minutes)</h2>
+<p>Update </code>server/routes/feed.xml.ts<code> lines 10-20:</p>
+<p></code>`<code>typescript<br>const feed = new Feed({<br>  title: 'Your Blog Name',              // ← Same as above<br>  description: 'Your blog tagline',     // ← Same as above<br>  id: 'https://yourdomain.com',        // ← Your domain<br>  link: 'https://yourdomain.com',      // ← Your domain<br>  author: {<br>    name: 'Your Name',                  // ← Your actual name<br>    email: 'you@example.com',          // ← Your email (optional)<br>  }<br>})<br></code>`<code></p>
+<p><strong>Why this matters:</strong> Powers your RSS feed at </code>/feed.xml<code> for subscribers.</p>
+<h2>3. Deploy Button URL (1 minute)</h2>
+<p>Update </code>app/components/Header.vue<code> around line 8:</p>
+<p></code>`<code>vue<br>'deploy': {<br>  name: 'deploy',<br>  path: 'https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/YOUR-REPO',<br>  external: true<br>}<br></code>`<code></p>
+<p>Replace </code>YOUR-USERNAME/YOUR-REPO<code> with your GitHub info.</p>
+<p><strong>Why this matters:</strong> Lets others deploy their own copy of your blog.</p>
+<h2>4. Favicon (1 minute)</h2>
+<p>Replace </code>public/favicon.ico<code> with your own icon.</p>
+<p><strong>Quick options:</strong><br>- Generate one at <a href="https://favicon.io/">favicon.io</a><br>- Use an emoji: <a href="https://favicon.io/emoji-favicons/">favicon.io/emoji-favicons</a><br>- Keep the default (it's fine for now!)</p>
+<h2>5. robots.txt (1 minute)</h2>
+<p>Rename </code>public/_robots.txt<code> to </code>public/robots.txt<code> (remove the underscore) and update:</p>
+<p></code>`<code><br>User-agent: *<br>Allow: /</p>
+<p>Sitemap: https://yourdomain.com/sitemap.xml<br></code>`<code></p>
+<p><strong>Why this matters:</strong> Helps search engines find and index your content.</p>
+<h2>6. Social Media Meta Tags (2 minutes)</h2>
+<p>If you want good-looking social shares, add to </code>nuxt.config.ts<code>:</p>
+<p></code>`<code>typescript<br>app: {<br>  head: {<br>    meta: [<br>      { property: 'og:site_name', content: 'Your Blog Name' },<br>      { name: 'twitter:site', content: '@yourtwitter' },    // ← Optional<br>    ]<br>  }<br>}<br></code>`<code></p>
+<p>> 🎨 Test your social cards at <a href="https://www.opengraph.xyz/">opengraph.xyz</a></p>
+<h2>7. Content Schema Defaults (1 minute)</h2>
+<p>In </code>content.config.ts<code>, set your default author:</p>
+<p></code>`<code>typescript<br>schema: z.object({<br>  // ... other fields ...<br>  author: z.string().optional().default('Your Name'),  // ← Your name<br>})<br></code>`<code></p>
+<p><strong>Why this matters:</strong> You won't need to add author to every post.</p>
+<h2>🚀 Pre-Deploy Checklist</h2>
+<p>Before going live, verify:</p>
+<p>- [ ] Site URL is your actual domain (not localhost)<br>- [ ] Blog name is set in both config files<br>- [ ] RSS feed has your information<br>- [ ] Deploy button points to your repo<br>- [ ] robots.txt is activated (no underscore)</p>
+<h2>Testing Your Config</h2>
+<p></code>`<code>bash<br><h1>Build locally to test</h1><br>npm run build<br>npm run preview</p>
+<h1>Check these URLs:</h1>
+<h1>http://localhost:3000/feed.xml - RSS feed</h1>
+<h1>http://localhost:3000/sitemap.xml - Sitemap</h1>
+</code>`<code>
+<h2>What About...?</h2>
+<p><strong>Analytics?</strong> Add them after launch - <a href="/advanced-configuration#analytics--monitoring">see advanced config</a></p>
+<p><strong>Fonts?</strong> The default Inter font is great - customize later if needed</p>
+<p><strong>Colors?</strong> Already covered in <a href="/quick-customization">quick customization</a></p>
+<p><strong>Images?</strong> Add to </code>public/images/` as you write posts</p>
+<h2>Next Steps</h2>
+<p>✅ <strong>Config done?</strong> Time to <a href="/deployment">deploy</a>!</p>
+<p>For more advanced settings:<br>- <a href="/advanced-configuration">Advanced Configuration</a> - CSP, analytics, performance<br>- <a href="/customizing-styles">Customizing Styles</a> - Fonts, dark mode, advanced CSS</p>
+<p>---</p>
+<p><strong>Remember:</strong> You can always add more configuration later. The goal is to get your blog live! 🎉</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Quick Customization - 5 Minutes to Your Blog]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/quick-customization</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/quick-customization</guid>
+            <pubDate>Thu, 09 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The fastest way to make this blog yours - change these 5 things and you're ready to go!]]></description>
+            <content:encoded><![CDATA[<p><strong>Time needed: 5 minutes</strong> ⏱️</p>
+<p>Just cloned this template? Here's exactly what you need to change to make it yours. No deep diving into configs - just the essentials!</p>
+<h2>1. Change Your Blog Name (30 seconds)</h2>
+<p>Open <code>nuxt.config.ts</code> and change line 5:</p>
+<p>``<code>typescript<br>export default defineNuxtConfig({<br>  site: {<br>    url: 'http://localhost:3000',<br>    name: 'My Awesome Blog', // ← Change this!<br>    description: 'A blog about my adventures in web development', // ← And this!<br>    defaultLocale: 'en',<br>  },<br></code>`<code></p>
+<p><strong>What this does:</strong> Updates your blog title everywhere - browser tabs, SEO, RSS feed.</p>
+<p>> 📚 <a href="https://nuxt.com/docs/api/configuration/nuxt-config">Learn more about Nuxt configuration</a></p>
+<h2>2. Update Your Deploy Button (1 minute)</h2>
+<p>Open </code>app/components/Header.vue<code> and find the deploy button URL around line 8:</p>
+<p></code>`<code>vue<br>'deploy': {<br>  name: 'deploy',<br>  path: 'https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/YOUR-REPO-NAME',<br>  external: true<br>}<br></code>`<code></p>
+<p>Replace </code>YOUR-USERNAME<code> and </code>YOUR-REPO-NAME<code> with your GitHub info.</p>
+<p><strong>What this does:</strong> Lets others deploy their own copy of your customized template!</p>
+<h2>3. Pick Your Brand Color (1 minute)</h2>
+<p>Open </code>tailwind.config.ts<code> and pick a color from <a href="https://tailwindcss.com/docs/customizing-colors">Tailwind's palette</a>:</p>
+<p></code>`<code>typescript<br>import colors from 'tailwindcss/colors'</p>
+<p>export default {<br>  theme: {<br>    extend: {<br>      colors: {<br>        primary: colors.purple, // ← Try: emerald, rose, amber, cyan, etc.<br>      }<br>    }<br>  }<br>}<br></code>`<code></p>
+<p><strong>Popular choices:</strong><br>- </code>colors.emerald<code> - Fresh and modern<br>- </code>colors.purple<code> - Creative and unique<br>- </code>colors.rose<code> - Warm and friendly<br>- </code>colors.slate<code> - Professional and minimal</p>
+<h2>4. Add Your Info to RSS Feed (1 minute)</h2>
+<p>Open </code>server/routes/feed.xml.ts<code> and update lines 10-16:</p>
+<p></code>`<code>typescript<br>const feed = new Feed({<br>  title: 'My Awesome Blog', // ← Your blog name<br>  description: 'A blog about my adventures', // ← Your tagline<br>  id: 'http://localhost:3000',<br>  link: 'http://localhost:3000',<br>  language: 'en',<br>  favicon: 'http://localhost:3000/favicon.ico',<br>  author: {<br>    name: 'Your Name', // ← Your actual name<br>    email: 'you@example.com', // ← Your email (optional)<br>  }<br>})<br></code>`<code></p>
+<h2>5. Delete the Demo Posts (30 seconds)</h2>
+<p>Remove these example files:<br>- </code>content/2025/09/mary-had-a-little-lamb.md<code><br>- </code>content/2025/09/quick-brown-fox.md<code></p>
+<p>Keep the documentation posts - they're helpful!</p>
+<h2>🎉 That's It! You're Ready to Blog!</h2>
+<p>Your blog now has:<br>- ✅ Your blog name and description<br>- ✅ Your brand colors<br>- ✅ Your author info<br>- ✅ A clean slate for your content</p>
+<h2>What's Next?</h2>
+<h3>Start Writing</h3>
+Create your first post:
+</code>`<code>bash
+<h1>Create a new file like:</h1>
+content/2025/01/my-first-post.md
+</code>`<code>
+<p>With this content:<br></code>`<code>markdown<br>---<br>title: My First Post<br>description: Welcome to my new blog!<br>date: 2025-01-15<br>---</p>
+<h1>Hello World!</h1>
+<p>This is my first post on my new blog...<br></code>`<code></p>
+<h3>Deploy Your Blog</h3>
+1. Push your changes to GitHub
+2. Click the "Deploy" button in your header
+3. Your blog is live in 2 minutes!
+<h3>Learn More</h3>
+- <a href="/organizing-content">Writing in Markdown</a> - Format your posts
+- <a href="/customizing-styles">Customizing Styles</a> - Go beyond colors
+- <a href="/site-configuration">Full Site Configuration</a> - Advanced options
+<h2>Common Questions</h2>
+<p><strong>Q: How do I change the font?</strong>  <br>A: Check out the <a href="/customizing-styles#typography">Customizing Styles guide</a> - it's a 2-minute change!</p>
+<p><strong>Q: Can I add a logo?</strong>  <br>A: Yes! Add your logo to </code>public/<code> and update the Header component. <a href="https://vuejs.org/guide/essentials/template-syntax.html#attribute-bindings">Vue docs on images</a></p>
+<p><strong>Q: How do I add pages like About or Contact?</strong>  <br>A: Super easy! See <a href="/creating-pages">Creating New Pages</a>. Just create a </code>.vue<code> file in </code>app/pages/`.</p>
+<p>---</p>
+<p><strong>Remember:</strong> This is YOUR blog now. Don't be afraid to experiment and make it unique! 🚀</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Troubleshooting Common Issues]]></title>
+            <link>https://nuxtjs-blog-starter.vercel.app/troubleshooting</link>
+            <guid isPermaLink="false">https://nuxtjs-blog-starter.vercel.app/troubleshooting</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Quick fixes for common Nuxt and Vue problems you might encounter]]></description>
+            <content:encoded><![CDATA[<p>Hit a snag? Here are solutions to the most common issues new Nuxt/Vue users encounter.</p>
+<h2>🔴 Error Messages</h2>
+<h3>"Cannot find module" or "Module not found"</h3>
+<p><strong>Problem:</strong> Missing dependencies or import errors</p>
+<p><strong>Solutions:</strong><br>``<code>bash<br><h1>1. Install missing dependencies</h1><br>npm install</p>
+<h1>2. If that doesn't work, clear cache</h1>
+rm -rf node_modules package-lock.json
+npm install
+<h1>3. For specific modules</h1>
+npm install [module-name]
+</code>`<code>
+<h3>"Hydration mismatch" warnings</h3>
+<p><strong>Problem:</strong> Server and client render differently</p>
+<p><strong>Common causes & fixes:</strong><br></code>`<code>vue<br><!-- ❌ Bad: Random values --><br><div>{{ Math.random() }}</div></p>
+<p><!-- ✅ Good: Use ClientOnly for client-side content --><br><ClientOnly><br>  <div>{{ Math.random() }}</div><br></ClientOnly></p>
+<p><!-- ✅ Or disable SSR for specific pages --><br><script setup><br>definePageMeta({<br>  ssr: false<br>})<br></script><br></code>`<code></p>
+<p>> 📚 <a href="https://vuejs.org/guide/scaling-up/ssr.html#hydration">Understanding hydration</a></p>
+<h3>"Failed to fetch dynamically imported module"</h3>
+<p><strong>Problem:</strong> Vite can't load a module after changes</p>
+<p><strong>Solution:</strong><br></code>`<code>bash<br><h1>Hard refresh your browser</h1><br><h1>Mac: Cmd + Shift + R</h1><br><h1>Windows: Ctrl + Shift + R</h1></p>
+<h1>If persists, restart dev server</h1>
+npm run dev
+</code>`<code>
+<h2>🎨 Styling Issues</h2>
+<h3>Tailwind classes not working</h3>
+<p><strong>Problem:</strong> Classes aren't being applied</p>
+<p><strong>Solutions:</strong><br></code>`<code>vue<br><!-- ❌ Bad: Dynamic classes --><br><div :class="</code>text-${color}-500<code>"></p>
+<p><!-- ✅ Good: Full class names --><br><div :class="color === 'red' ? 'text-red-500' : 'text-blue-500'"></p>
+<p><!-- ✅ Or define all possible classes --><br><!-- This ensures Tailwind includes them --><br><script><br>// Somewhere in your code<br>const colors = {<br>  red: 'text-red-500',<br>  blue: 'text-blue-500'<br>}<br></script><br></code>`<code></p>
+<p><strong>Always restart after config changes:</strong><br></code>`<code>bash<br><h1>After editing tailwind.config.ts</h1><br>npm run dev<br></code>`<code></p>
+<h3>Fonts not loading</h3>
+<p><strong>Problem:</strong> Custom fonts aren't showing</p>
+<p><strong>Check these:</strong><br>1. Font name matches exactly in </code>nuxt.config.ts<code> and </code>tailwind.config.ts<code><br>2. Clear browser cache<br>3. Check Network tab for font loading errors</p>
+<p></code>`<code>typescript<br>// nuxt.config.ts<br>fonts: {<br>  families: [<br>    { name: 'Inter', provider: 'google' }  // Must match below<br>  ]<br>}</p>
+<p>// tailwind.config.ts<br>fontFamily: {<br>  sans: ['Inter', 'sans-serif']  // Must match above<br>}<br></code>`<code></p>
+<h2>📄 Content Issues</h2>
+<h3>Blog posts not showing up</h3>
+<p><strong>Problem:</strong> New markdown files aren't appearing</p>
+<p><strong>Checklist:</strong><br></code>`<code>markdown<br>---<br>title: Required Field        ✓ Must have<br>description: Optional<br>date: 2025-01-20<br>draft: false                ✓ Not set to true<br>---</p>
+<p>Content must be after frontmatter<br></code>`<code></p>
+<p><strong>Debug steps:</strong><br></code>`<code>vue<br><!-- Add to app/pages/index.vue temporarily --><br><script setup><br>const { data: pages } = await useAsyncData('all-pages', () => {<br>  return queryCollection('content').all()<br>})</p>
+<p>// Debug: Log all found content<br>console.log('Found pages:', pages.value)<br></script><br></code>`<code></p>
+<h3>Images not displaying</h3>
+<p><strong>Problem:</strong> Images return 404</p>
+<p><strong>Solutions:</strong><br></code>`<code>markdown<br><!-- ❌ Wrong paths --><br><img src="../images/photo.jpg" alt="" /><br><img src="/content/images/photo.jpg" alt="" /></p>
+<p><!-- ✅ Correct: Put images in public/ --><br><img src="/images/photo.jpg" alt="" /><br></code>`<code></p>
+<p>Images must be in </code>public/<code> directory:<br></code>`<code><br>public/<br>  images/<br>    photo.jpg     → accessible at /images/photo.jpg<br></code>`<code></p>
+<h2>⚡ Performance Issues</h2>
+<h3>Dev server is slow</h3>
+<p><strong>Problem:</strong> Pages load slowly in development</p>
+<p><strong>Solutions:</strong><br></code>`<code>bash<br><h1>1. Clear Nuxt cache</h1><br>rm -rf .nuxt</p>
+<h1>2. Disable SSR for development</h1>
+<h1>In nuxt.config.ts</h1>
+export default defineNuxtConfig({
+  ssr: false,  // Dev only!
+})
+<h1>3. Check for large images</h1>
+<h1>Optimize images over 200KB</h1>
+</code>`<code>
+<h3>Build fails</h3>
+<p><strong>Problem:</strong> </code>npm run build<code> errors</p>
+<p><strong>Common fixes:</strong><br></code>`<code>bash<br><h1>1. Check Node version (needs 18+)</h1><br>node --version</p>
+<h1>2. Clear all caches</h1>
+rm -rf .nuxt .output node_modules/.cache
+<h1>3. Type errors? Generate types</h1>
+npm run postinstall
+<h1>4. Memory issues? Increase Node memory</h1>
+NODE_OPTIONS='--max-old-space-size=4096' npm run build
+</code>`<code>
+<h2>🔧 Vue-Specific Issues</h2>
+<h3>"Cannot access before initialization"</h3>
+<p><strong>Problem:</strong> Using variables before they're defined</p>
+<p></code>`<code>vue<br><!-- ❌ Bad --><br><script setup><br>console.log(myVar)  // Error!<br>const myVar = 'hello'<br></script></p>
+<p><!-- ✅ Good --><br><script setup><br>const myVar = 'hello'<br>console.log(myVar)  // Works<br></script><br></code>`<code></p>
+<h3>Reactivity not working</h3>
+<p><strong>Problem:</strong> Data changes but UI doesn't update</p>
+<p></code>`<code>vue<br><!-- ❌ Bad: Modifying object properties --><br><script setup><br>const user = { name: 'John' }<br>user.name = 'Jane'  // Won't trigger update<br></script></p>
+<p><!-- ✅ Good: Use reactive or ref --><br><script setup><br>import { reactive, ref } from 'vue'</p>
+<p>// For objects<br>const user = reactive({ name: 'John' })<br>user.name = 'Jane'  // Will update</p>
+<p>// For primitives<br>const name = ref('John')<br>name.value = 'Jane'  // Will update<br></script><br></code>`<code></p>
+<p>> 🔍 <a href="https://vuejs.org/guide/essentials/reactivity-fundamentals.html">Vue Reactivity guide</a></p>
+<h2>🚀 Deployment Issues</h2>
+<h3>"404 Not Found" in production</h3>
+<p><strong>Problem:</strong> Routes work locally but not when deployed</p>
+<p><strong>For dynamic routes, ensure prerendering:</strong><br></code>`<code>typescript<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  nitro: {<br>    prerender: {<br>      crawlLinks: true  // Finds and prerenders all pages<br>    }<br>  }<br>})<br></code>`<code></p>
+<h3>Environment variables not working</h3>
+<p><strong>Problem:</strong> Config works locally but not in production</p>
+<p></code>`<code>typescript<br>// ❌ Bad: Direct process.env access<br>const apiUrl = process.env.API_URL</p>
+<p>// ✅ Good: Use runtimeConfig<br>// nuxt.config.ts<br>export default defineNuxtConfig({<br>  runtimeConfig: {<br>    public: {<br>      apiUrl: process.env.NUXT<em>PUBLIC</em>API_URL || 'default'<br>    }<br>  }<br>})</p>
+<p>// In components<br>const config = useRuntimeConfig()<br>console.log(config.public.apiUrl)<br></code>`<code></p>
+<h2>🆘 Getting Help</h2>
+<h3>Before asking for help:</h3>
+<p>1. <strong>Check the console</strong> (F12 in browser)<br>2. <strong>Read the full error message</strong><br>3. <strong>Google the exact error</strong><br>4. <strong>Try solutions in this guide</strong></p>
+<h3>Where to get help:</h3>
+<p>- <strong>Nuxt Discord</strong>: <a href="https://discord.nuxt.com">discord.nuxt.com</a> (very active!)<br>- <strong>Vue Discord</strong>: <a href="https://discord.vuejs.org">discord.vuejs.org</a><br>- <strong>Stack Overflow</strong>: Tag with </code>nuxt3<code> and </code>vue.js<code><br>- <strong>GitHub Issues</strong>: For bug reports</p>
+<h3>How to ask for help:</h3>
+<p></code>`<code>markdown<br><strong>What I'm trying to do:</strong><br>[Describe your goal]</p>
+<p><strong>What's happening instead:</strong><br>[Error message or unexpected behavior]</p>
+<p><strong>What I've tried:</strong><br>- Solution 1<br>- Solution 2</p>
+<p><strong>Minimal reproduction:</strong><br>[Link to CodeSandbox or repo]<br></code>`<code></p>
+<h2>💡 Pro Tips</h2>
+<p>1. <strong>Always check the browser console first</strong><br>2. <strong>Restart dev server after config changes</strong><br>3. <strong>Clear caches when things get weird</strong><br>4. <strong>Read error messages carefully - they usually tell you exactly what's wrong</strong><br>5. <strong>Keep dependencies updated</strong>: </code>npm update`</p>
+<p>---</p>
+<p><strong>Still stuck?</strong> The Nuxt and Vue communities are friendly and helpful. Don't hesitate to ask for help! 🤝</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

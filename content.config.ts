@@ -9,7 +9,8 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string().optional(),
         date: z.string().optional(),
-        draft: z.boolean().optional().default(false)
+        draft: z.boolean().optional().default(false),
+        tags: z.array(z.string()).optional()
       })
     })
   }
